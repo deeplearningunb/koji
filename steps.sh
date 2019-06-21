@@ -14,7 +14,7 @@ melody_rnn_train \
 --run_dir=./tmp/melody_rnn/logdir/run1 \
 --sequence_example_file=./tmp/melody_rnn/sequence_examples/training_melodies.tfrecord \
 --hparams="batch_size=64,rnn_layer_sizes=[64,64]" \
---num_training_steps=100
+--num_training_steps=1000
 
 melody_rnn_generate \
 --config=attention_rnn \
