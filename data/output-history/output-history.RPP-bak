@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "5.978/x64" 1561154697
+<REAPER_PROJECT 0.1 "5.978/x64" 1561167560
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 1
@@ -14,9 +14,9 @@
   TIMEMODE 1 5 -1 30 0
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 92
-  ZOOM 6.49054715188748 0 0
-  VZOOMEX 8
+  CURSOR 36.5
+  ZOOM 25.47655226259559 398 0
+  VZOOMEX 7
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -27,11 +27,11 @@
   >
   <APPLYFX_CFG
   >
-  RENDER_FILE "Z:\home\matheus\Documents\FGA\dl\koji\data\output-history\best.mp3"
+  RENDER_FILE "Z:\home\matheus\Documents\FGA\dl\koji\data\output-history\song.wav"
   RENDER_FMT 0 2 44100
   RENDER_1X 0
-  RENDER_RANGE 1 0 0 18 1000
-  RENDER_RESAMPLE 3 0 1
+  RENDER_RANGE 2 0 0 18 1000
+  RENDER_RESAMPLE 4 0 1
   RENDER_ADDTOPROJ 0
   RENDER_STEMS 0
   RENDER_DITHER 0
@@ -42,7 +42,7 @@
   TAKELANE 1
   SAMPLERATE 44100 0 0
   <RENDER_CFG
-    bDNwbYAAAAAAAAAAAgAAAP////8EAAAAgAAAAAAAAAA=
+    ZXZhdxgAAA==
   >
   LOCK 1
   <METRONOME 6 2
@@ -55,8 +55,8 @@
   GLOBAL_AUTO -1
   TEMPO 120 4 4
   PLAYRATE 1 0 0.25 4
-  SELECTION 36 52
-  SELECTION2 36 52
+  SELECTION 56 0
+  SELECTION2 56 0
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -64,9 +64,9 @@
   MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0
   MASTERHWOUT 0 0 1 0 0 0 0 -1
   MASTER_NCH 2 2
-  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_VOLUME 2.4269402138312 0 -1 -1 1
   MASTER_FX 1
-  MASTER_SEL 1
+  MASTER_SEL 0
   <MASTERPLAYSPEEDENV
     ACT 0 -1
     VIS 0 1 1
@@ -95,13 +95,1198 @@
   MARKER 10 161.74191999999974 10 0 0 1 R
   <PROJBAY
   >
+  <TRACK {A830C337-13B9-40D4-BB83-5152F6795027}
+    NAME MUSIC
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0.86872391523433 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 1 1
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {A830C337-13B9-40D4-BB83-5152F6795027}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 28 63 548 468
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+    >
+  >
+  <TRACK {A8A7E2CD-59C4-48F0-8E50-E21501FBBA21}
+    NAME REVERB
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0.22337890694683 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 1
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {A8A7E2CD-59C4-48F0-8E50-E21501FBBA21}
+    PERF 0
+    AUXRECV 2 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 3 0 0.62574668811146 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 4 0 1.37878064076581 0 0 0 0 0 0 -1:U 0 -1 ''
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 638 187 635 329
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VST: ReaVerbate (Cockos)" reaverbate.dll 0 "" 1920361016 ""
+        OGJ2cu9e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAKAAAAAAAAAAAABAA
+        776t3g3wrd7vOzU/AAAAABVTDT8AAAA/AACAP8e8jjsAAIA/AAAAAA==
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {1C4026D8-2D0C-49BF-AAF5-EB5BCF8A2920}
+      WAK 0
+    >
+  >
+  <TRACK {7CBFF2C5-1CC9-4BE6-80BE-B5A8F61DCDEA}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0.86872391523433 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {7CBFF2C5-1CC9-4BE6-80BE-B5A8F61DCDEA}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 433 247 548 468
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSynth (Cockos)" reasynth.dll 0 "" 1919251321 ""
+        eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAA8AAAAAAAAAAAAEAA=
+        776t3g3wrd6mm8Q7F7fROgAAgD8AAAAAAAAAAE6otD3pZ4g9AAAAAAAAAD8AAIA/AACAPwAAAD8AAAAA
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {E04205A8-EFFA-497E-A952-BD20B3D428C6}
+      WAK 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 16
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {B6A11706-118E-4D79-8BC3-60190F1BDF0E}
+      IID 136
+      NAME 2019-06-21_185540_04.mid
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 33521664 R
+      GUID {F485E7AC-7A6A-4A51-B726-396342DB66FE}
+      <SOURCE MIDI
+        HASDATA 1 220 QN
+        POOLEDEVTS {747EA832-AD33-42AD-AD4F-03AC13D601C4}
+        E 0 c0 00 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 165 90 40 64
+        E 220 90 3c 64
+        E 0 90 40 00
+        E 165 90 3c 00
+        E 55 90 3c 64
+        E 165 90 39 64
+        E 0 90 3c 00
+        E 55 90 39 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 55 90 3c 64
+        E 110 90 3c 00
+        E 0 90 40 64
+        E 220 90 37 64
+        E 0 90 40 00
+        E 165 90 37 00
+        E 0 90 40 64
+        E 220 90 37 64
+        E 0 90 40 00
+        E 55 90 37 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 165 90 40 64
+        E 220 90 3c 64
+        E 0 90 40 00
+        E 165 90 3c 00
+        E 55 90 3c 64
+        E 165 90 39 64
+        E 0 90 3c 00
+        E 55 90 39 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 55 90 3c 64
+        E 110 90 3c 00
+        E 0 90 43 64
+        E 165 90 41 64
+        E 0 90 43 00
+        E 55 90 41 00
+        E 0 90 45 64
+        E 165 90 40 64
+        E 0 90 45 00
+        E 220 90 37 64
+        E 0 90 40 00
+        E 55 90 37 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 165 90 40 64
+        E 220 90 3c 64
+        E 0 90 40 00
+        E 165 90 3c 00
+        E 55 90 3c 64
+        E 165 90 39 64
+        E 0 90 3c 00
+        E 55 90 39 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 55 90 3c 64
+        E 110 90 3c 00
+        E 0 90 40 64
+        E 165 90 40 00
+        E 0 90 43 64
+        E 55 90 43 00
+        E 0 90 45 64
+        E 165 90 40 64
+        E 0 90 45 00
+        E 220 90 40 00
+        E 0 90 43 64
+        E 55 90 3c 64
+        E 0 90 43 00
+        E 55 90 3c 00
+        E 165 90 40 64
+        E 220 90 3c 64
+        E 0 90 40 00
+        E 165 90 3c 00
+        E 55 90 3c 64
+        E 165 90 39 64
+        E 0 90 3c 00
+        E 55 90 39 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 55 90 3c 64
+        E 110 90 3c 00
+        E 0 90 40 64
+        E 165 90 40 00
+        E 0 90 43 64
+        E 55 90 43 00
+        E 0 90 45 64
+        E 165 90 40 64
+        E 0 90 45 00
+        E 220 90 40 00
+        E 0 90 43 64
+        E 54 90 43 00
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {3FB7DA23-68BB-42E9-B222-E8A1F40C2F1F}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 277
+        VELLANE -1 100 0
+        CFGEDITVIEW 0 0.097301 58 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 6 841 384 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 16
+      SNAPOFFS 0
+      LENGTH 16
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {C6212F4E-7F53-47CD-97EA-8A2879E52570}
+      IID 143
+      NAME 2019-06-21_185540_04.mid
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 33521664 R
+      GUID {80C91431-0BFE-404E-80C3-2C51656DF5A1}
+      <SOURCE MIDI
+        HASDATA 1 220 QN
+        POOLEDEVTS {C4202A57-31B3-46CC-9A99-95970DCD0812}
+        E 0 c0 00 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 165 90 40 64
+        E 220 90 3c 64
+        E 0 90 40 00
+        E 165 90 3c 00
+        E 55 90 3c 64
+        E 165 90 39 64
+        E 0 90 3c 00
+        E 55 90 39 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 55 90 3c 64
+        E 110 90 3c 00
+        E 0 90 40 64
+        E 220 90 37 64
+        E 0 90 40 00
+        E 165 90 37 00
+        E 0 90 40 64
+        E 220 90 37 64
+        E 0 90 40 00
+        E 55 90 37 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 165 90 40 64
+        E 220 90 3c 64
+        E 0 90 40 00
+        E 165 90 3c 00
+        E 55 90 3c 64
+        E 165 90 39 64
+        E 0 90 3c 00
+        E 55 90 39 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 55 90 3c 64
+        E 110 90 3c 00
+        E 0 90 43 64
+        E 165 90 41 64
+        E 0 90 43 00
+        E 55 90 41 00
+        E 0 90 45 64
+        E 165 90 40 64
+        E 0 90 45 00
+        E 220 90 37 64
+        E 0 90 40 00
+        E 55 90 37 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 165 90 40 64
+        E 220 90 3c 64
+        E 0 90 40 00
+        E 165 90 3c 00
+        E 55 90 3c 64
+        E 165 90 39 64
+        E 0 90 3c 00
+        E 55 90 39 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 55 90 3c 64
+        E 110 90 3c 00
+        E 0 90 40 64
+        E 165 90 40 00
+        E 0 90 43 64
+        E 55 90 43 00
+        E 0 90 45 64
+        E 165 90 40 64
+        E 0 90 45 00
+        E 220 90 40 00
+        E 0 90 43 64
+        E 55 90 3c 64
+        E 0 90 43 00
+        E 55 90 3c 00
+        E 165 90 40 64
+        E 220 90 3c 64
+        E 0 90 40 00
+        E 165 90 3c 00
+        E 55 90 3c 64
+        E 165 90 39 64
+        E 0 90 3c 00
+        E 55 90 39 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 55 90 3c 64
+        E 110 90 3c 00
+        E 0 90 40 64
+        E 165 90 40 00
+        E 0 90 43 64
+        E 55 90 43 00
+        E 0 90 45 64
+        E 165 90 40 64
+        E 0 90 45 00
+        E 220 90 40 00
+        E 0 90 43 64
+        E 54 90 43 00
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {6260E785-3F95-4D96-9837-50BFFFB7B6A9}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 284
+        VELLANE -1 100 0
+        CFGEDITVIEW 0 0.097301 58 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 6 841 384 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 32
+      SNAPOFFS 0
+      LENGTH 4.125
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {F4E13F54-5BCD-41DF-8405-DC2720FC03F7}
+      IID 149
+      NAME 2019-06-21_185540_09.mid
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D6FDE5D9-C154-471D-8FAF-80B9B12EB724}
+      <SOURCE MIDI
+        HASDATA 1 220 QN
+        POOLEDEVTS {51CD7C1F-DCAA-400F-9056-778BA978C74C}
+        E 0 c0 00 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 165 90 40 64
+        E 220 90 3c 64
+        E 0 90 40 00
+        E 165 90 3c 00
+        E 55 90 3c 64
+        E 165 90 3c 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 55 90 43 64
+        E 110 90 40 64
+        E 0 90 43 00
+        E 220 90 3e 64
+        E 0 90 40 00
+        E 440 90 3c 64
+        E 0 90 3e 00
+        E 55 80 3c 00
+        E 0 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {38C2ACCC-EF5A-46C6-AB4D-D289726AE50A}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 290
+        VELLANE -1 100 0
+      >
+    >
+    <ITEM
+      POSITION 36
+      SNAPOFFS 0
+      LENGTH 4
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {1498786E-C036-4E58-9A1B-07B2A9CA6A39}
+      IID 1685
+      NAME 2019-06-21_185540_09.mid
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EED879DD-5519-485B-98C3-1F0CCFA09023}
+      <SOURCE MIDI
+        HASDATA 1 220 QN
+        POOLEDEVTS {4E380EE6-8163-4231-88B6-0CA324AE1AAF}
+        E 0 c0 00 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 165 90 40 64
+        E 220 90 3c 64
+        E 0 90 40 00
+        E 165 90 3c 00
+        E 55 90 3c 64
+        E 165 90 3c 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 55 90 43 64
+        E 110 90 40 64
+        E 0 90 43 00
+        E 220 90 3e 64
+        E 0 90 40 00
+        E 440 90 3c 64
+        E 0 90 3e 00
+        E 55 80 3c 00
+        E 0 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {17D95E64-E086-44B6-B768-BEFDC19722AD}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 298
+        VELLANE -1 100 0
+      >
+    >
+    <ITEM
+      POSITION 40
+      SNAPOFFS 0
+      LENGTH 16
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {10FEE906-8396-44C4-8014-7F311D8DBBC1}
+      IID 138
+      NAME 2019-06-21_175732_06.mid
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {31A80AEC-39EC-4A21-B423-9AC06210F4F5}
+      <SOURCE MIDI
+        HASDATA 1 220 QN
+        POOLEDEVTS {54B6C975-6DBA-41E0-846B-59C4DADD79BF}
+        E 0 c0 00 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 165 90 41 64
+        E 165 90 41 00
+        E 165 90 3f 64
+        E 110 90 3f 00
+        E 0 90 40 64
+        E 220 90 3c 64
+        E 0 90 40 00
+        E 220 90 3c 00
+        E 0 90 41 64
+        E 165 90 41 00
+        E 165 90 3f 64
+        E 110 90 3f 00
+        E 0 90 40 64
+        E 220 90 3c 64
+        E 0 90 40 00
+        E 55 90 3c 00
+        E 165 90 41 64
+        E 165 90 41 00
+        E 165 90 3f 64
+        E 110 90 3f 00
+        E 0 90 40 64
+        E 220 90 3c 64
+        E 0 90 40 00
+        E 220 90 3c 00
+        E 0 90 41 64
+        E 165 90 41 00
+        E 165 90 3f 64
+        E 110 90 3f 00
+        E 0 90 40 64
+        E 220 90 3c 64
+        E 0 90 40 00
+        E 55 90 3c 00
+        E 165 90 41 64
+        E 165 90 41 00
+        E 55 90 3c 64
+        E 110 90 3c 00
+        E 0 90 3f 64
+        E 110 90 3f 00
+        E 0 90 43 64
+        E 110 90 41 64
+        E 0 90 43 00
+        E 110 90 41 00
+        E 0 90 41 64
+        E 110 90 41 00
+        E 0 90 45 64
+        E 110 90 41 64
+        E 0 90 45 00
+        E 110 90 41 00
+        E 0 90 43 64
+        E 55 90 43 00
+        E 55 90 3c 64
+        E 110 90 3c 00
+        E 0 90 3f 64
+        E 110 90 3e 64
+        E 0 90 3f 00
+        E 220 90 3e 00
+        E 0 90 41 64
+        E 55 90 41 00
+        E 55 90 45 64
+        E 110 90 45 00
+        E 0 90 45 64
+        E 110 90 45 00
+        E 0 90 48 64
+        E 55 90 48 00
+        E 55 90 45 64
+        E 110 90 3f 64
+        E 0 90 45 00
+        E 110 90 3f 00
+        E 0 90 48 64
+        E 110 90 45 64
+        E 0 90 48 00
+        E 110 90 3c 64
+        E 0 90 45 00
+        E 110 90 3c 00
+        E 0 90 43 64
+        E 110 90 43 00
+        E 0 90 45 64
+        E 110 90 45 00
+        E 0 90 48 64
+        E 55 90 48 00
+        E 55 90 43 64
+        E 110 90 3f 64
+        E 0 90 43 00
+        E 110 90 38 64
+        E 0 90 3f 00
+        E 110 90 38 00
+        E 0 90 45 64
+        E 109 90 45 00
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {E02B8F97-11B2-407B-9CA9-0F31B1E5C046}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 279
+        VELLANE -1 100 0
+        CFGEDITVIEW 0 0.097301 55 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 16 22 1190 833 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+  >
+  <TRACK {E35352EC-4A58-4A64-BB3C-9851C05B5EC6}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0.33976994183647 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {E35352EC-4A58-4A64-BB3C-9851C05B5EC6}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 28 63 548 468
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSynth (Cockos)" reasynth.dll 0 "" 1919251321 ""
+        eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAA8AAAAAAAAAAAAEAA=
+        776t3g3wrd6mm8Q7F7fROgAAgD8AAAAAAAAAAE6otD3pZ4g9AAAAAAAAAD8AAIA/AACAPwAAAD8AAAAA
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {62DA0F55-F894-475D-AD5E-5B6265961FCF}
+      WAK 0
+    >
+    <ITEM
+      POSITION 16
+      SNAPOFFS 0
+      LENGTH 8
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {1898A98B-1E91-4FFC-A2BE-CD904C2DD5E7}
+      IID 144
+      NAME 2019-06-21_175732_04.mid
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AECFA299-DAB9-469B-B525-B037CD99F1CE}
+      <SOURCE MIDI
+        HASDATA 1 220 QN
+        POOLEDEVTS {080BC92A-D380-4353-9E46-6B21450E3589}
+        E 0 c0 00 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 165 90 35 64
+        E 165 90 35 00
+        E 55 90 39 64
+        E 110 90 39 00
+        E 110 90 3f 64
+        E 220 90 3c 64
+        E 0 90 3f 00
+        E 220 90 35 64
+        E 0 90 3c 00
+        E 220 90 35 00
+        E 0 90 39 64
+        E 440 90 39 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 165 90 35 64
+        E 165 90 35 00
+        E 55 90 48 64
+        E 110 90 48 00
+        E 110 90 48 64
+        E 165 90 44 64
+        E 0 90 48 00
+        E 55 90 3c 64
+        E 0 90 44 00
+        E 220 90 35 64
+        E 0 90 3c 00
+        E 220 90 35 00
+        E 0 90 39 64
+        E 385 90 39 00
+        E 0 90 44 64
+        E 55 90 3c 64
+        E 0 90 44 00
+        E 55 90 3c 00
+        E 165 90 35 64
+        E 165 90 35 00
+        E 55 90 3c 64
+        E 110 90 3b 64
+        E 0 90 3c 00
+        E 110 90 3b 00
+        E 0 90 3b 64
+        E 165 90 3b 00
+        E 0 90 44 64
+        E 55 90 3c 64
+        E 0 90 44 00
+        E 220 90 3b 64
+        E 0 90 3c 00
+        E 220 90 3b 00
+        E 0 90 3c 64
+        E 220 90 3b 64
+        E 0 90 3c 00
+        E 165 90 3b 00
+        E 55 90 3c 64
+        E 55 90 3c 00
+        E 165 90 35 64
+        E 165 90 35 00
+        E 55 90 3c 64
+        E 110 90 3b 64
+        E 0 90 3c 00
+        E 110 90 3b 00
+        E 0 90 3b 64
+        E 165 90 3b 00
+        E 0 90 44 64
+        E 55 90 3c 64
+        E 0 90 44 00
+        E 220 90 3b 64
+        E 0 90 3c 00
+        E 330 90 3b 00
+        E 220 90 39 64
+        E 55 90 39 00
+        E 55 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {0F807249-B02A-4466-A52E-A5637DD6DD30}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 285
+        VELLANE -1 100 0
+        CFGEDITVIEW 0 0.097301 55 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 6 841 384 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 24
+      SNAPOFFS 0
+      LENGTH 8
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {FC94A724-D222-4509-99D7-EB74E38D3242}
+      IID 145
+      NAME 2019-06-21_175732_04.mid
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A5139C8C-B3F4-436F-9B8D-CB89A78529B3}
+      <SOURCE MIDI
+        HASDATA 1 220 QN
+        POOLEDEVTS {3402AB81-C717-48DD-BD08-FB90C84BA57E}
+        E 0 c0 00 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 165 90 35 64
+        E 165 90 35 00
+        E 55 90 39 64
+        E 110 90 39 00
+        E 110 90 3f 64
+        E 220 90 3c 64
+        E 0 90 3f 00
+        E 220 90 35 64
+        E 0 90 3c 00
+        E 220 90 35 00
+        E 0 90 39 64
+        E 440 90 39 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 165 90 35 64
+        E 165 90 35 00
+        E 55 90 48 64
+        E 110 90 48 00
+        E 110 90 48 64
+        E 165 90 44 64
+        E 0 90 48 00
+        E 55 90 3c 64
+        E 0 90 44 00
+        E 220 90 35 64
+        E 0 90 3c 00
+        E 220 90 35 00
+        E 0 90 39 64
+        E 385 90 39 00
+        E 0 90 44 64
+        E 55 90 3c 64
+        E 0 90 44 00
+        E 55 90 3c 00
+        E 165 90 35 64
+        E 165 90 35 00
+        E 55 90 3c 64
+        E 110 90 3b 64
+        E 0 90 3c 00
+        E 110 90 3b 00
+        E 0 90 3b 64
+        E 165 90 3b 00
+        E 0 90 44 64
+        E 55 90 3c 64
+        E 0 90 44 00
+        E 220 90 3b 64
+        E 0 90 3c 00
+        E 220 90 3b 00
+        E 0 90 3c 64
+        E 220 90 3b 64
+        E 0 90 3c 00
+        E 165 90 3b 00
+        E 55 90 3c 64
+        E 55 90 3c 00
+        E 165 90 35 64
+        E 165 90 35 00
+        E 55 90 3c 64
+        E 110 90 3b 64
+        E 0 90 3c 00
+        E 110 90 3b 00
+        E 0 90 3b 64
+        E 165 90 3b 00
+        E 0 90 44 64
+        E 55 90 3c 64
+        E 0 90 44 00
+        E 220 90 3b 64
+        E 0 90 3c 00
+        E 330 90 3b 00
+        E 220 90 39 64
+        E 55 90 39 00
+        E 55 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {AD1FA517-8AF3-4469-86BF-F69BCF10A746}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 286
+        VELLANE -1 100 0
+        CFGEDITVIEW 0 0.097301 55 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 6 841 384 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 32
+      SNAPOFFS 0
+      LENGTH 4.125
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {217FCE4C-975B-4F78-B39E-10A4C1ACCD14}
+      IID 137
+      NAME 2019-06-21_185540_06.mid
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CE4B0DA0-E582-4DDE-9DD4-4052C6C69A55}
+      <SOURCE MIDI
+        HASDATA 1 220 QN
+        POOLEDEVTS {25CBE438-EA61-437F-96AC-D092A1BFDC03}
+        E 0 c0 00 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 165 90 41 64
+        E 110 90 41 00
+        e 110 90 3b 64
+        e 220 90 3b 00
+        E 0 90 3c 64
+        E 110 90 3c 00
+        E 110 90 3c 64
+        E 220 90 3c 00
+        E 0 90 41 64
+        E 110 90 41 00
+        E 110 90 3b 64
+        E 220 90 3b 00
+        E 0 90 3c 64
+        E 110 90 3c 00
+        E 110 90 3c 64
+        E 55 80 3c 00
+        E 0 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {F8DCF24F-BDD2-429C-B4B8-6A6EA494C622}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 278
+        VELLANE -1 100 0
+        CFGEDITVIEW 2307.535601 0.37741 62 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 283 484 1475 1421 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 36
+      SNAPOFFS 0
+      LENGTH 4
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {AE560D14-6E68-4FC4-87FA-5ABFDC286C86}
+      IID 1686
+      NAME 2019-06-21_185540_06.mid
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {54FF7BBF-EA73-4DBD-845D-2C143D7F6DD8}
+      <SOURCE MIDI
+        HASDATA 1 220 QN
+        POOLEDEVTS {EA48B0B8-E78B-464F-9CD3-A22A6A27B173}
+        E 0 c0 00 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 165 90 41 64
+        E 110 90 41 00
+        E 110 90 3b 64
+        E 220 90 3b 00
+        E 0 90 3c 64
+        E 110 90 3c 00
+        E 110 90 3c 64
+        E 220 90 3c 00
+        E 0 90 41 64
+        E 110 90 41 00
+        E 110 90 3b 64
+        E 220 90 3b 00
+        E 0 90 3c 64
+        E 110 90 3c 00
+        E 110 90 3c 64
+        E 55 80 3c 00
+        E 0 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {8322290E-A42F-437B-B3B4-34C17BACC08D}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 299
+        VELLANE -1 100 0
+      >
+    >
+    <ITEM
+      POSITION 44
+      SNAPOFFS 0
+      LENGTH 10
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {DA0A1A46-CA28-4EA8-A1AC-024018352D61}
+      IID 1698
+      NAME 2019-06-21_175732_04.mid
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B3DACCAD-A2EA-4610-9C23-DF70FC3A992B}
+      <SOURCE MIDI
+        HASDATA 1 220 QN
+        POOLEDEVTS {6B3CD680-5839-4E24-A729-F3F99E7092FE}
+        E 0 c0 00 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 165 90 35 64
+        E 165 90 35 00
+        E 55 90 39 64
+        E 110 90 39 00
+        E 110 90 3f 64
+        E 220 90 3c 64
+        E 0 90 3f 00
+        E 220 90 35 64
+        E 0 90 3c 00
+        E 220 90 35 00
+        E 0 90 39 64
+        E 440 90 39 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 165 90 35 64
+        E 165 90 35 00
+        E 55 90 48 64
+        E 110 90 48 00
+        E 110 90 48 64
+        E 165 90 44 64
+        E 0 90 48 00
+        E 55 90 3c 64
+        E 0 90 44 00
+        E 220 90 35 64
+        E 0 90 3c 00
+        E 220 90 35 00
+        E 0 90 39 64
+        E 385 90 39 00
+        E 0 90 44 64
+        E 55 90 3c 64
+        E 0 90 44 00
+        E 55 90 3c 00
+        E 165 90 35 64
+        E 165 90 35 00
+        E 55 90 3c 64
+        E 110 90 3b 64
+        E 0 90 3c 00
+        E 110 90 3b 00
+        E 0 90 3b 64
+        E 165 90 3b 00
+        E 0 90 44 64
+        E 55 90 3c 64
+        E 0 90 44 00
+        E 220 90 3b 64
+        E 0 90 3c 00
+        E 220 90 3b 00
+        E 0 90 3c 64
+        E 220 90 3b 64
+        E 0 90 3c 00
+        E 165 90 3b 00
+        E 55 90 3c 64
+        E 55 90 3c 00
+        E 165 90 35 64
+        E 165 90 35 00
+        E 55 90 3c 64
+        E 110 90 3b 64
+        E 0 90 3c 00
+        E 110 90 3b 00
+        E 0 90 3b 64
+        E 165 90 3b 00
+        E 0 90 44 64
+        E 55 90 3c 64
+        E 0 90 44 00
+        E 220 90 3b 64
+        E 0 90 3c 00
+        E 330 90 3b 00
+        E 220 90 39 64
+        E 55 90 39 00
+        E 55 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {8468BABD-C905-4FB3-BE27-A662976E9C45}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 304
+        VELLANE -1 100 0
+        CFGEDITVIEW 0 0.097301 55 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 6 841 384 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+  >
+  <TRACK {8650091A-02B8-4E96-A366-3827FD7AFA91}
+    NAME DRUMS
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0.49867694159935 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 2 -1
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {8650091A-02B8-4E96-A366-3827FD7AFA91}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 8
+      SNAPOFFS 0
+      LENGTH 10
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {E9E2F013-9AFC-4D68-B5E6-92DE04901B8D}
+      IID 1684
+      NAME drums.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {840D22A1-0A22-4B1B-A833-6935818F7640}
+      <SOURCE WAVE
+        FILE "drums.wav"
+      >
+    >
+    <ITEM
+      POSITION 18
+      SNAPOFFS 0
+      LENGTH 10
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {8B2B6357-03DA-4CF1-97A8-E842C03031AC}
+      IID 1687
+      NAME drums.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F1A5FE49-5BBC-4EE0-A967-EFECE0CF9AE6}
+      <SOURCE WAVE
+        FILE "drums.wav"
+      >
+    >
+    <ITEM
+      POSITION 28
+      SNAPOFFS 0
+      LENGTH 10
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {5E67A897-7318-44F7-A3D7-ECA7BE54F655}
+      IID 1688
+      NAME drums.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4C59E623-5C71-436F-AC28-478B059C82A1}
+      <SOURCE WAVE
+        FILE "drums.wav"
+      >
+    >
+    <ITEM
+      POSITION 38
+      SNAPOFFS 0
+      LENGTH 10
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 1
+      IGUID {3B744C0F-FE52-43E8-9676-A987AA8344FE}
+      IID 1689
+      NAME drums.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F5698FF5-2514-45FB-98FF-BE52098033CA}
+      <SOURCE WAVE
+        FILE "drums.wav"
+      >
+    >
+    <ITEM
+      POSITION 48
+      SNAPOFFS 0
+      LENGTH 8
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 4 0 0 4 0 -1
+      MUTE 0
+      SEL 0
+      IGUID {4F0C6358-38F3-463E-94E7-A471270C465E}
+      IID 1690
+      NAME drums.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B313EA58-43D5-4615-BAFC-5AA79C0C3512}
+      <SOURCE WAVE
+        FILE "drums.wav"
+      >
+    >
+  >
   <TRACK {091022A1-19B2-4F51-98AD-7FBB1FF927F7}
-    NAME "100 steps"
+    NAME "mario - 100 steps"
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
     VOLPAN 0.74502912105762 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 0 0
     BUSCOMP 0 0
@@ -420,118 +1605,126 @@
       >
     >
     <ITEM
-      POSITION 36
+      POSITION 36.125
       SNAPOFFS 0
-      LENGTH 16
+      LENGTH 11.875
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {6DAA47B6-E83D-463F-A971-36792E26677B}
-      IID 5
-      NAME 2019-06-21_170207_06.mid
+      IGUID {99922A9F-3A93-49A9-9930-0BFFFDFEC859}
+      IID 640
+      NAME 2019-06-21_185540_06.mid
       VOLPAN 1 0 1 -1
-      SOFFS 0 0
+      SOFFS 4.125 8.25
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {C8904E79-0018-46EE-A6DD-ED52891110A9}
+      GUID {FEE53187-51A3-4E32-BBBB-28356318F6F9}
       <SOURCE MIDI
         HASDATA 1 220 QN
-        POOLEDEVTS {804E1B59-DFA4-41AB-B5C5-1C7D724A977C}
+        POOLEDEVTS {DFB38653-7E0D-4391-AC64-6FB7885A879C}
         E 0 c0 00 00
         E 0 90 3c 64
         E 55 90 3c 00
-        E 165 90 3c 64
-        E 275 90 3c 00
-        E 0 90 41 64
-        E 55 90 41 00
-        E 0 90 41 64
-        E 165 90 37 64
-        E 0 90 41 00
-        E 110 90 37 00
-        E 0 90 40 64
-        E 55 90 3c 64
-        E 0 90 40 00
-        E 55 90 3c 00
-        E 165 90 3c 64
-        E 165 90 3c 00
-        E 110 90 41 64
-        E 385 90 3c 64
-        E 0 90 41 00
-        E 55 90 3c 00
-        E 165 90 3c 64
-        E 220 90 3c 00
-        E 55 90 41 64
-        E 55 90 41 00
-        E 0 90 41 64
-        E 55 90 41 00
-        E 110 90 37 64
-        E 55 90 37 00
-        E 0 90 3c 64
-        E 55 90 3c 00
-        E 0 90 4c 64
-        E 55 90 3c 64
-        E 0 90 4c 00
-        E 55 90 3c 00
-        E 165 90 3c 64
-        E 165 90 3c 00
-        E 110 90 41 64
-        E 385 90 3c 64
-        E 0 90 41 00
-        E 55 90 3c 00
-        E 55 90 43 64
-        E 110 90 3c 64
-        E 0 90 43 00
-        E 220 90 3c 00
-        E 55 90 41 64
-        E 55 90 3c 64
-        E 0 90 41 00
-        E 55 90 3c 00
-        E 110 90 3e 64
-        E 55 90 3c 64
-        E 0 90 3e 00
-        E 55 90 39 64
-        E 0 90 3c 00
-        E 55 90 39 00
-        E 0 90 3c 64
-        E 55 90 36 64
-        E 0 90 3c 00
-        E 55 90 36 00
-        E 0 90 3e 64
-        E 110 90 3c 64
-        E 0 90 3e 00
-        E 110 90 3c 00
         E 165 90 41 64
-        E 385 90 3c 64
-        E 0 90 41 00
-        E 55 90 3c 00
-        E 165 90 3c 64
-        E 220 90 3c 00
-        E 55 90 41 64
         E 110 90 41 00
-        E 110 90 3e 64
-        E 55 90 3c 64
-        E 0 90 3e 00
-        E 55 90 3c 00
-        E 55 90 3c 64
-        E 55 90 36 64
-        E 0 90 3c 00
-        E 55 90 36 00
-        E 0 90 3e 64
+        E 110 90 3b 64
+        E 220 90 3b 00
+        E 0 90 3c 64
+        E 110 90 3c 00
         E 110 90 3c 64
-        E 0 90 3e 00
-        E 55 90 3b 64
-        E 0 90 3c 00
-        E 110 90 3b 00
-        E 110 90 41 64
-        E 384 90 41 00
+        E 220 90 3c 00
+        E 0 90 41 64
+        E 110 90 41 00
+        E 110 90 3b 64
+        E 220 90 3b 00
+        E 0 90 3c 64
+        E 110 90 3c 00
+        E 110 90 3c 64
+        E 55 90 3c 00
+        E 165 90 41 64
+        E 110 90 41 00
+        E 110 90 43 64
+        E 220 90 3c 64
+        E 0 90 43 00
+        E 110 90 3c 00
+        E 330 90 41 64
+        E 110 90 41 00
+        E 0 90 43 64
+        E 110 90 3f 64
+        E 0 90 43 00
+        E 220 90 3f 00
+        E 0 90 3f 64
+        E 110 90 3f 00
+        E 110 90 3c 64
+        E 55 90 3c 00
+        E 165 90 3f 64
+        E 165 90 3f 00
+        E 0 90 3f 64
+        E 55 90 3f 00
+        E 0 90 43 64
+        E 165 90 3f 64
+        E 0 90 43 00
+        E 55 90 3f 00
+        E 0 90 3f 64
+        E 110 90 3f 00
+        E 55 90 3f 64
+        E 55 90 3c 64
+        E 0 90 3f 00
+        E 55 90 3c 00
+        E 0 90 41 64
+        E 55 90 41 00
+        E 0 90 42 64
+        E 110 90 3f 64
+        E 0 90 42 00
+        E 165 90 3f 00
+        E 0 90 3f 64
+        E 55 90 3f 00
+        E 0 90 43 64
+        E 220 90 3f 64
+        E 0 90 43 00
+        E 110 90 3f 00
+        E 110 90 43 64
+        E 55 90 43 00
+        E 165 90 3f 64
+        E 165 90 3f 00
+        E 0 90 3f 64
+        E 55 90 3f 00
+        E 0 90 43 64
+        E 110 90 43 00
+        E 0 90 43 64
+        E 55 90 3f 64
+        E 0 90 43 00
+        E 55 90 3f 00
+        E 0 90 3f 64
+        E 110 90 3f 00
+        E 0 90 43 64
+        E 55 90 3f 64
+        E 0 90 43 00
+        E 55 90 3c 64
+        E 0 90 3f 00
+        E 55 90 3c 00
+        E 0 90 41 64
+        E 165 90 41 00
+        E 0 90 43 64
+        E 110 90 43 00
+        E 0 90 43 64
+        E 55 90 3f 64
+        E 0 90 43 00
+        E 165 90 3f 00
+        E 0 90 43 64
+        E 220 90 43 00
+        E 0 90 43 64
+        E 55 90 3f 64
+        E 0 90 43 00
+        E 54 90 3f 00
         E 1 b0 7b 00
         CHASE_CC_TAKEOFFS 1
-        GUID {89E0E7F7-AB7C-429A-BBB6-0EA41DAA3891}
+        GUID {8E6715A2-3B2F-46BD-8D55-B2D4E49A5262}
         IGNTEMPO 0 120 4 4
-        SRCCOLOR 6
+        SRCCOLOR 292
         VELLANE -1 100 0
       >
     >
@@ -775,12 +1968,12 @@
     >
   >
   <TRACK {5072ADF2-E37A-4D80-ABB2-467C0E4FF905}
-    NAME "500 steps"
+    NAME "mario - 500 steps"
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 0 0
     BUSCOMP 0 0
@@ -1035,107 +2228,123 @@
       >
     >
     <ITEM
-      POSITION 36.15407021574586
+      POSITION 36.125
       SNAPOFFS 0
-      LENGTH 16
+      LENGTH 15.875
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {6579E41E-26DA-4269-9D1D-F7ADEAFA456F}
-      IID 53
-      NAME 2019-06-21_175732_04.mid
+      IGUID {51E0FE75-8D13-4DF5-BF2E-AC2EAAA8D41E}
+      IID 641
+      NAME 2019-06-21_170207_06.mid
       VOLPAN 1 0 1 -1
-      SOFFS 0 0
+      SOFFS 0.125 0.25
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {E0C1E9F8-1993-40B9-BA6E-A57CDC1D85E0}
+      GUID {C89916B2-DB1E-4D06-89AF-772ABEEF8384}
       <SOURCE MIDI
         HASDATA 1 220 QN
-        POOLEDEVTS {3434FCEE-C3D9-4D70-96CB-EB968DF622F6}
+        POOLEDEVTS {9E59FDDD-0C0B-4A31-9678-08FE41B15662}
         E 0 c0 00 00
         E 0 90 3c 64
         E 55 90 3c 00
-        E 165 90 35 64
-        E 165 90 35 00
+        E 165 90 3c 64
+        E 275 90 3c 00
+        E 0 90 41 64
+        E 55 90 41 00
+        E 0 90 41 64
+        E 165 90 37 64
+        E 0 90 41 00
+        E 110 90 37 00
+        E 0 90 40 64
+        E 55 90 3c 64
+        E 0 90 40 00
+        E 55 90 3c 00
+        E 165 90 3c 64
+        E 165 90 3c 00
+        E 110 90 41 64
+        E 385 90 3c 64
+        E 0 90 41 00
+        E 55 90 3c 00
+        E 165 90 3c 64
+        E 220 90 3c 00
+        E 55 90 41 64
+        E 55 90 41 00
+        E 0 90 41 64
+        E 55 90 41 00
+        E 110 90 37 64
+        E 55 90 37 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 0 90 4c 64
+        E 55 90 3c 64
+        E 0 90 4c 00
+        E 55 90 3c 00
+        E 165 90 3c 64
+        E 165 90 3c 00
+        E 110 90 41 64
+        E 385 90 3c 64
+        E 0 90 41 00
+        E 55 90 3c 00
+        E 55 90 43 64
+        E 110 90 3c 64
+        E 0 90 43 00
+        E 220 90 3c 00
+        E 55 90 41 64
+        E 55 90 3c 64
+        E 0 90 41 00
+        E 55 90 3c 00
+        E 110 90 3e 64
+        E 55 90 3c 64
+        E 0 90 3e 00
         E 55 90 39 64
-        E 110 90 39 00
-        E 110 90 3f 64
-        E 220 90 3c 64
-        E 0 90 3f 00
-        E 220 90 35 64
         E 0 90 3c 00
-        E 220 90 35 00
-        E 0 90 39 64
-        E 440 90 39 00
-        E 0 90 3c 64
-        E 55 90 3c 00
-        E 165 90 35 64
-        E 165 90 35 00
-        E 55 90 48 64
-        E 110 90 48 00
-        E 110 90 48 64
-        E 165 90 44 64
-        E 0 90 48 00
-        E 55 90 3c 64
-        E 0 90 44 00
-        E 220 90 35 64
-        E 0 90 3c 00
-        E 220 90 35 00
-        E 0 90 39 64
-        E 385 90 39 00
-        E 0 90 44 64
-        E 55 90 3c 64
-        E 0 90 44 00
-        E 55 90 3c 00
-        E 165 90 35 64
-        E 165 90 35 00
-        E 55 90 3c 64
-        E 110 90 3b 64
-        E 0 90 3c 00
-        E 110 90 3b 00
-        E 0 90 3b 64
-        E 165 90 3b 00
-        E 0 90 44 64
-        E 55 90 3c 64
-        E 0 90 44 00
-        E 220 90 3b 64
-        E 0 90 3c 00
-        E 220 90 3b 00
-        E 0 90 3c 64
-        E 220 90 3b 64
-        E 0 90 3c 00
-        E 165 90 3b 00
-        E 55 90 3c 64
-        E 55 90 3c 00
-        E 165 90 35 64
-        E 165 90 35 00
-        E 55 90 3c 64
-        E 110 90 3b 64
-        E 0 90 3c 00
-        E 110 90 3b 00
-        E 0 90 3b 64
-        E 165 90 3b 00
-        E 0 90 44 64
-        E 55 90 3c 64
-        E 0 90 44 00
-        E 220 90 3b 64
-        E 0 90 3c 00
-        E 330 90 3b 00
-        E 220 90 39 64
         E 55 90 39 00
-        E 55 b0 7b 00
+        E 0 90 3c 64
+        E 55 90 36 64
+        E 0 90 3c 00
+        E 55 90 36 00
+        E 0 90 3e 64
+        E 110 90 3c 64
+        E 0 90 3e 00
+        E 110 90 3c 00
+        E 165 90 41 64
+        E 385 90 3c 64
+        E 0 90 41 00
+        E 55 90 3c 00
+        E 165 90 3c 64
+        E 220 90 3c 00
+        E 55 90 41 64
+        E 110 90 41 00
+        E 110 90 3e 64
+        E 55 90 3c 64
+        E 0 90 3e 00
+        E 55 90 3c 00
+        E 55 90 3c 64
+        E 55 90 36 64
+        E 0 90 3c 00
+        E 55 90 36 00
+        E 0 90 3e 64
+        E 110 90 3c 64
+        E 0 90 3e 00
+        E 55 90 3b 64
+        E 0 90 3c 00
+        E 110 90 3b 00
+        E 110 90 41 64
+        E 384 90 41 00
+        E 1 b0 7b 00
         CHASE_CC_TAKEOFFS 1
-        GUID {A65C0AE2-4780-4FC3-9761-215179842AF6}
+        GUID {149CF055-FFC4-49E7-A8C7-6FAF7E21108D}
         IGNTEMPO 0 120 4 4
-        SRCCOLOR 119
+        SRCCOLOR 293
         VELLANE -1 100 0
       >
     >
     <ITEM
-      POSITION 54.15407021574586
+      POSITION 54
       SNAPOFFS 0
       LENGTH 16
       LOOP 1
@@ -1622,12 +2831,12 @@
     >
   >
   <TRACK {4DBCC1B5-8429-4CC6-B20B-8A4E7541A88C}
-    NAME "1000 steps"
+    NAME "mario - 1000 steps"
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 2 0
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 0 0
     BUSCOMP 0 0
@@ -1772,6 +2981,7 @@
         GUID {2E69A543-7F37-4C7C-B2C7-75A5FFE6A0D6}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 162
+        VELLANE -1 100 0
       >
     >
     <ITEM
@@ -1875,130 +3085,107 @@
         GUID {88373455-867E-4390-B26B-C46B50B32829}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 163
+        VELLANE -1 100 0
       >
     >
     <ITEM
-      POSITION 36.15407021574586
+      POSITION 36.5
       SNAPOFFS 0
-      LENGTH 16
+      LENGTH 15.875
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {96327936-749E-46AF-9AF0-95B24100BE7E}
-      IID 93
-      NAME 2019-06-21_185540_04.mid
+      IGUID {6148B422-7AA7-4F25-B4D2-37203D2BC3EA}
+      IID 642
+      NAME 2019-06-21_175732_04.mid
       VOLPAN 1 0 1 -1
-      SOFFS 0 0
+      SOFFS 0.125 0.25
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      TAKECOLOR 33521664 R
-      GUID {04033CAE-8865-48C1-B244-9AB53545F35E}
+      GUID {9B2389C2-B97A-4430-BFA9-F91D1D135D92}
       <SOURCE MIDI
         HASDATA 1 220 QN
-        POOLEDEVTS {FF5207DB-7C59-448A-BAAF-5570502884B2}
+        POOLEDEVTS {47E7AE8C-7F51-43D6-9756-2EB6C726FD86}
         E 0 c0 00 00
         E 0 90 3c 64
         E 55 90 3c 00
-        E 165 90 40 64
+        E 165 90 35 64
+        E 165 90 35 00
+        E 55 90 39 64
+        E 110 90 39 00
+        E 110 90 3f 64
         E 220 90 3c 64
-        E 0 90 40 00
-        E 165 90 3c 00
-        E 55 90 3c 64
-        E 165 90 39 64
+        E 0 90 3f 00
+        E 220 90 35 64
         E 0 90 3c 00
-        E 55 90 39 00
+        E 220 90 35 00
+        E 0 90 39 64
+        E 440 90 39 00
         E 0 90 3c 64
         E 55 90 3c 00
+        E 165 90 35 64
+        E 165 90 35 00
+        E 55 90 48 64
+        E 110 90 48 00
+        E 110 90 48 64
+        E 165 90 44 64
+        E 0 90 48 00
         E 55 90 3c 64
-        E 110 90 3c 00
-        E 0 90 40 64
-        E 220 90 37 64
-        E 0 90 40 00
-        E 165 90 37 00
-        E 0 90 40 64
-        E 220 90 37 64
-        E 0 90 40 00
-        E 55 90 37 00
-        E 0 90 3c 64
-        E 55 90 3c 00
-        E 165 90 40 64
-        E 220 90 3c 64
-        E 0 90 40 00
-        E 165 90 3c 00
-        E 55 90 3c 64
-        E 165 90 39 64
+        E 0 90 44 00
+        E 220 90 35 64
         E 0 90 3c 00
-        E 55 90 39 00
-        E 0 90 3c 64
-        E 55 90 3c 00
+        E 220 90 35 00
+        E 0 90 39 64
+        E 385 90 39 00
+        E 0 90 44 64
         E 55 90 3c 64
-        E 110 90 3c 00
-        E 0 90 43 64
-        E 165 90 41 64
-        E 0 90 43 00
-        E 55 90 41 00
-        E 0 90 45 64
-        E 165 90 40 64
-        E 0 90 45 00
-        E 220 90 37 64
-        E 0 90 40 00
-        E 55 90 37 00
-        E 0 90 3c 64
+        E 0 90 44 00
         E 55 90 3c 00
-        E 165 90 40 64
-        E 220 90 3c 64
-        E 0 90 40 00
-        E 165 90 3c 00
+        E 165 90 35 64
+        E 165 90 35 00
         E 55 90 3c 64
-        E 165 90 39 64
+        E 110 90 3b 64
         E 0 90 3c 00
-        E 55 90 39 00
-        E 0 90 3c 64
-        E 55 90 3c 00
+        E 110 90 3b 00
+        E 0 90 3b 64
+        E 165 90 3b 00
+        E 0 90 44 64
         E 55 90 3c 64
-        E 110 90 3c 00
-        E 0 90 40 64
-        E 165 90 40 00
-        E 0 90 43 64
-        E 55 90 43 00
-        E 0 90 45 64
-        E 165 90 40 64
-        E 0 90 45 00
-        E 220 90 40 00
-        E 0 90 43 64
-        E 55 90 3c 64
-        E 0 90 43 00
-        E 55 90 3c 00
-        E 165 90 40 64
-        E 220 90 3c 64
-        E 0 90 40 00
-        E 165 90 3c 00
-        E 55 90 3c 64
-        E 165 90 39 64
+        E 0 90 44 00
+        E 220 90 3b 64
         E 0 90 3c 00
-        E 55 90 39 00
+        E 220 90 3b 00
         E 0 90 3c 64
-        E 55 90 3c 00
+        E 220 90 3b 64
+        E 0 90 3c 00
+        E 165 90 3b 00
         E 55 90 3c 64
-        E 110 90 3c 00
-        E 0 90 40 64
-        E 165 90 40 00
-        E 0 90 43 64
-        E 55 90 43 00
-        E 0 90 45 64
-        E 165 90 40 64
-        E 0 90 45 00
-        E 220 90 40 00
-        E 0 90 43 64
-        E 54 90 43 00
-        E 1 b0 7b 00
+        E 55 90 3c 00
+        E 165 90 35 64
+        E 165 90 35 00
+        E 55 90 3c 64
+        E 110 90 3b 64
+        E 0 90 3c 00
+        E 110 90 3b 00
+        E 0 90 3b 64
+        E 165 90 3b 00
+        E 0 90 44 64
+        E 55 90 3c 64
+        E 0 90 44 00
+        E 220 90 3b 64
+        E 0 90 3c 00
+        E 330 90 3b 00
+        E 220 90 39 64
+        E 55 90 39 00
+        E 55 b0 7b 00
         CHASE_CC_TAKEOFFS 1
-        GUID {F0E41BEE-EEF6-4C9F-85D8-28D48C9D0662}
+        GUID {94C70E8D-351D-440D-A90E-2C1367DF6117}
         IGNTEMPO 0 120 4 4
-        SRCCOLOR 165
+        SRCCOLOR 294
+        VELLANE -1 100 0
       >
     >
     <ITEM
@@ -2122,6 +3309,7 @@
         GUID {D42B1B22-717C-4032-A774-891472E949A2}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 167
+        VELLANE -1 100 0
       >
     >
     <ITEM
@@ -2229,6 +3417,7 @@
         GUID {D7DFFF1E-1B21-45F9-8B4F-500E27637D26}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 168
+        VELLANE -1 100 0
       >
     >
     <ITEM
@@ -2320,6 +3509,7 @@
         GUID {CD8CFDA1-FD8C-4876-BC4B-D79E4AD56D82}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 169
+        VELLANE -1 100 0
       >
     >
     <ITEM
@@ -2441,6 +3631,2084 @@
         GUID {9145DC3B-B83D-4096-BDE3-7CA78BE3D036}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 170
+        VELLANE -1 100 0
+      >
+    >
+  >
+  <TRACK {7B4D5260-8184-4CB9-99A2-D3DB9AF6ADE8}
+    NAME "zelda - 200 steps"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {7B4D5260-8184-4CB9-99A2-D3DB9AF6ADE8}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 28 63 548 468
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSynth (Cockos)" reasynth.dll 0 "" 1919251321 ""
+        eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAA8AAAAAAAAAAAAEAA=
+        776t3g3wrd6mm8Q7F7fROgAAgD8AAAAAAAAAAE6otD3pZ4g9AAAAAAAAAD8AAIA/AACAPwAAAD8AAAAA
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {5E1E6495-9D00-4AAA-B5C8-DEA54E22E1CB}
+      WAK 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 16
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {AC9FD3EE-E4D2-4379-BD15-16B19CA26FE6}
+      IID 107
+      NAME 2019-06-21_204534_01.mid
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {68E7B203-921D-4AE6-8CFE-0030E800EBC3}
+      <SOURCE MIDI
+        HASDATA 1 220 QN
+        POOLEDEVTS {5027EF8A-8849-438E-86E3-DC4E8C91E7AD}
+        E 0 c0 00 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 1045 90 43 64
+        E 220 90 43 00
+        E 0 90 43 64
+        E 440 90 3c 64
+        E 0 90 43 00
+        E 55 90 3c 00
+        E 605 90 48 64
+        E 220 90 48 00
+        E 0 90 48 64
+        E 220 90 45 64
+        E 0 90 48 00
+        E 220 90 45 00
+        E 0 90 47 64
+        E 220 90 47 00
+        E 0 90 48 64
+        E 220 90 48 00
+        E 0 90 51 64
+        E 55 90 51 00
+        E 385 90 3c 64
+        E 110 90 3c 00
+        E 0 90 4d 64
+        E 220 90 40 64
+        E 0 90 4d 00
+        E 330 90 3c 64
+        E 0 90 40 00
+        E 220 90 3c 00
+        E 0 90 47 64
+        E 495 90 47 00
+        E 385 90 3c 64
+        E 110 90 3c 00
+        E 0 90 4d 64
+        E 220 90 40 64
+        E 0 90 4d 00
+        E 330 90 3c 64
+        E 0 90 40 00
+        E 220 90 3c 00
+        E 0 90 47 64
+        E 439 90 47 00
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {C6626C7C-1E83-47BB-8136-35E34D93E838}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 212
+        VELLANE -1 100 0
+      >
+    >
+    <ITEM
+      POSITION 18
+      SNAPOFFS 0
+      LENGTH 16
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {D7B45FCC-B2CC-42CB-BB34-96CB844BE7B9}
+      IID 108
+      NAME 2019-06-21_204534_02.mid
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BE873738-BA3A-45D2-97E2-4B43D403BF38}
+      <SOURCE MIDI
+        HASDATA 1 220 QN
+        POOLEDEVTS {6CEEBA27-961C-40A6-B54B-067A44ED432F}
+        E 0 c0 00 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 825 90 48 64
+        E 880 90 3c 64
+        E 0 90 48 00
+        E 55 90 3c 00
+        E 825 90 48 64
+        E 220 90 47 64
+        E 0 90 48 00
+        E 110 90 43 64
+        E 0 90 47 00
+        E 330 90 43 00
+        E 0 90 48 64
+        E 220 90 47 64
+        E 0 90 48 00
+        E 55 90 47 00
+        E 385 90 41 64
+        E 220 90 3e 64
+        E 0 90 41 00
+        E 55 90 3e 00
+        E 0 90 40 64
+        E 275 90 40 00
+        E 0 90 48 64
+        E 110 90 3e 64
+        E 0 90 48 00
+        E 660 90 3e 00
+        E 0 90 43 64
+        E 55 90 43 00
+        E 165 90 40 64
+        E 220 90 40 00
+        E 0 90 41 64
+        E 220 90 3e 64
+        E 0 90 41 00
+        E 55 90 3e 00
+        E 0 90 40 64
+        E 825 90 40 00
+        E 0 90 41 64
+        E 219 90 41 00
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {484B0C17-BA85-4667-B104-53EE33DB2771}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 213
+        VELLANE -1 100 0
+      >
+    >
+    <ITEM
+      POSITION 36
+      SNAPOFFS 0
+      LENGTH 15.875
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {BACEFB3A-C675-4023-8B0C-5CDFAA158F84}
+      IID 643
+      NAME 2019-06-21_185540_04.mid
+      VOLPAN 1 0 1 -1
+      SOFFS 0.125 0.25
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 33521664 R
+      GUID {C7B49FF8-5346-4AC5-9F36-62BF439F881A}
+      <SOURCE MIDI
+        HASDATA 1 220 QN
+        POOLEDEVTS {59E0C039-9D11-4D44-97FD-640FF9C1DD85}
+        E 0 c0 00 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 165 90 40 64
+        E 220 90 3c 64
+        E 0 90 40 00
+        E 165 90 3c 00
+        E 55 90 3c 64
+        E 165 90 39 64
+        E 0 90 3c 00
+        E 55 90 39 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 55 90 3c 64
+        E 110 90 3c 00
+        E 0 90 40 64
+        E 220 90 37 64
+        E 0 90 40 00
+        E 165 90 37 00
+        E 0 90 40 64
+        E 220 90 37 64
+        E 0 90 40 00
+        E 55 90 37 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 165 90 40 64
+        E 220 90 3c 64
+        E 0 90 40 00
+        E 165 90 3c 00
+        E 55 90 3c 64
+        E 165 90 39 64
+        E 0 90 3c 00
+        E 55 90 39 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 55 90 3c 64
+        E 110 90 3c 00
+        E 0 90 43 64
+        E 165 90 41 64
+        E 0 90 43 00
+        E 55 90 41 00
+        E 0 90 45 64
+        E 165 90 40 64
+        E 0 90 45 00
+        E 220 90 37 64
+        E 0 90 40 00
+        E 55 90 37 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 165 90 40 64
+        E 220 90 3c 64
+        E 0 90 40 00
+        E 165 90 3c 00
+        E 55 90 3c 64
+        E 165 90 39 64
+        E 0 90 3c 00
+        E 55 90 39 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 55 90 3c 64
+        E 110 90 3c 00
+        E 0 90 40 64
+        E 165 90 40 00
+        E 0 90 43 64
+        E 55 90 43 00
+        E 0 90 45 64
+        E 165 90 40 64
+        E 0 90 45 00
+        E 220 90 40 00
+        E 0 90 43 64
+        E 55 90 3c 64
+        E 0 90 43 00
+        E 55 90 3c 00
+        E 165 90 40 64
+        E 220 90 3c 64
+        E 0 90 40 00
+        E 165 90 3c 00
+        E 55 90 3c 64
+        E 165 90 39 64
+        E 0 90 3c 00
+        E 55 90 39 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 55 90 3c 64
+        E 110 90 3c 00
+        E 0 90 40 64
+        E 165 90 40 00
+        E 0 90 43 64
+        E 55 90 43 00
+        E 0 90 45 64
+        E 165 90 40 64
+        E 0 90 45 00
+        E 220 90 40 00
+        E 0 90 43 64
+        E 54 90 43 00
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {A3A43578-13D8-4FD2-AEFC-0245BF15685D}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 295
+        VELLANE -1 100 0
+        CFGEDITVIEW 0 0.097301 58 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 6 841 384 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 54
+      SNAPOFFS 0
+      LENGTH 16
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {E57BABCB-57F4-4381-A79A-C7D1860A08BB}
+      IID 110
+      NAME 2019-06-21_204534_04.mid
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7252CB77-6BC6-47A7-86CC-9916AEEA730C}
+      <SOURCE MIDI
+        HASDATA 1 220 QN
+        POOLEDEVTS {AADE868C-9C09-4910-A63B-296D53A3D0FA}
+        E 0 c0 00 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 825 90 41 64
+        E 880 90 3c 64
+        E 0 90 41 00
+        E 55 90 3c 00
+        E 825 90 45 64
+        E 220 90 45 00
+        E 0 90 48 64
+        E 220 90 45 64
+        E 0 90 48 00
+        E 220 90 43 64
+        E 0 90 45 00
+        E 220 90 43 00
+        E 0 90 43 64
+        E 55 90 43 00
+        E 385 90 3e 64
+        E 110 90 3e 00
+        E 0 90 40 64
+        E 110 90 40 00
+        E 0 90 43 64
+        E 220 90 43 00
+        E 0 90 43 64
+        E 55 90 43 00
+        E 495 90 3e 64
+        E 110 90 3c 64
+        E 0 90 3e 00
+        E 275 90 3c 00
+        E 385 90 3e 64
+        E 110 90 3e 00
+        E 0 90 40 64
+        E 110 90 40 00
+        E 0 90 43 64
+        E 220 90 43 00
+        E 0 90 43 64
+        E 55 90 43 00
+        E 495 90 3e 64
+        E 110 90 3e 00
+        E 0 90 43 64
+        E 219 90 43 00
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {450CA455-3A55-4151-BC81-1065B4372B18}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 215
+        VELLANE -1 100 0
+      >
+    >
+    <ITEM
+      POSITION 72
+      SNAPOFFS 0
+      LENGTH 16
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {7D45B5B8-9751-4C11-A4D3-F7254F019A53}
+      IID 111
+      NAME 2019-06-21_204534_05.mid
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7039F28F-D548-4850-9F91-1D5A1E39EB32}
+      <SOURCE MIDI
+        HASDATA 1 220 QN
+        POOLEDEVTS {4EBC6D84-18C7-4571-B4BA-1895F86A6249}
+        E 0 c0 00 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 605 90 3c 64
+        E 220 90 3c 00
+        E 0 90 43 64
+        E 880 90 3c 64
+        E 0 90 43 00
+        E 55 90 3c 00
+        E 605 90 3c 64
+        E 220 90 3c 00
+        E 0 90 47 64
+        E 220 90 47 00
+        E 0 90 48 64
+        E 660 90 3c 64
+        E 0 90 48 00
+        E 55 90 3c 00
+        E 55 90 3e 64
+        E 110 90 3e 00
+        E 0 90 41 64
+        E 220 90 3c 64
+        E 0 90 41 00
+        E 110 90 3c 00
+        E 0 90 3e 64
+        E 220 90 3e 00
+        E 0 90 40 64
+        E 110 90 3e 64
+        E 0 90 40 00
+        E 550 90 3e 00
+        E 0 90 3e 64
+        E 330 90 3e 00
+        E 0 90 3e 64
+        E 55 90 3e 00
+        E 55 90 3e 64
+        E 110 90 3e 00
+        E 0 90 41 64
+        E 220 90 3c 64
+        E 0 90 41 00
+        E 110 90 3c 00
+        E 0 90 3e 64
+        E 220 90 3e 00
+        E 0 90 40 64
+        E 110 90 3e 64
+        E 0 90 40 00
+        E 550 90 3e 00
+        E 0 90 3e 64
+        E 329 90 3e 00
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {7429A752-88C6-458B-B5EA-846885573217}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 216
+        VELLANE -1 100 0
+      >
+    >
+    <ITEM
+      POSITION 89.84592978425414
+      SNAPOFFS 0
+      LENGTH 16
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {BD0A71EF-D00A-4B0B-ABAA-62C21A523D99}
+      IID 112
+      NAME 2019-06-21_204534_06.mid
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {85DBC13D-22B5-4AA9-A48D-F92361216AB0}
+      <SOURCE MIDI
+        HASDATA 1 220 QN
+        POOLEDEVTS {9AC24077-2A3D-4EFE-917B-67E213ED819F}
+        E 0 c0 00 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 605 90 3e 64
+        E 220 90 3e 00
+        E 0 90 41 64
+        E 220 90 31 64
+        E 0 90 41 00
+        E 440 90 31 00
+        E 0 90 3e 64
+        E 220 90 3c 64
+        E 0 90 3e 00
+        E 55 90 3c 00
+        E 385 90 47 64
+        E 220 90 3e 64
+        E 0 90 47 00
+        E 220 90 3e 00
+        E 0 90 48 64
+        E 220 90 48 00
+        E 0 90 48 64
+        E 220 90 47 64
+        E 0 90 48 00
+        E 220 90 3e 64
+        E 0 90 47 00
+        E 220 90 3e 00
+        E 0 90 40 64
+        E 55 90 40 00
+        E 385 90 36 64
+        E 880 90 36 00
+        E 0 90 47 64
+        E 440 90 3e 64
+        E 0 90 47 00
+        E 55 90 3e 00
+        E 385 90 36 64
+        E 440 90 36 00
+        E 0 90 3e 64
+        E 440 90 3e 00
+        E 0 90 47 64
+        E 220 90 41 64
+        E 0 90 47 00
+        E 219 90 41 00
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {5DE08326-5072-4936-87F1-5C33206C3D3A}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 217
+        VELLANE -1 100 0
+      >
+    >
+    <ITEM
+      POSITION 108
+      SNAPOFFS 0
+      LENGTH 16
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {26481D7D-9F8F-4F89-83D7-9A64C16FBAC0}
+      IID 113
+      NAME 2019-06-21_204534_07.mid
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E6630E78-E09E-417B-9373-63E747066CA4}
+      <SOURCE MIDI
+        HASDATA 1 220 QN
+        POOLEDEVTS {8CDFFA09-F242-400E-9BF4-D3591E5AB8C3}
+        E 0 c0 00 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 385 90 3e 64
+        E 220 90 3e 00
+        E 0 90 40 64
+        E 220 90 3e 64
+        E 0 90 40 00
+        E 660 90 3e 00
+        E 0 90 40 64
+        E 110 90 40 00
+        E 0 90 48 64
+        E 110 90 45 64
+        E 0 90 48 00
+        E 55 90 45 00
+        E 55 90 47 64
+        E 110 90 45 64
+        E 0 90 47 00
+        E 220 90 43 64
+        E 0 90 45 00
+        E 220 90 43 00
+        E 0 90 43 64
+        E 220 90 3e 64
+        E 0 90 43 00
+        E 660 90 3e 00
+        E 0 90 3e 64
+        E 110 90 3e 00
+        E 0 90 48 64
+        E 165 90 48 00
+        E 55 90 47 64
+        E 330 90 3e 64
+        E 0 90 47 00
+        E 330 90 3e 00
+        E 0 90 40 64
+        E 330 90 3e 64
+        E 0 90 40 00
+        E 220 90 3e 00
+        E 0 90 3e 64
+        E 220 90 3e 00
+        E 0 90 43 64
+        E 110 90 43 00
+        E 0 90 48 64
+        E 110 90 3e 64
+        E 0 90 48 00
+        E 55 90 3e 00
+        E 55 90 47 64
+        E 330 90 3e 64
+        E 0 90 47 00
+        E 330 90 3e 00
+        E 0 90 40 64
+        E 330 90 3e 64
+        E 0 90 40 00
+        E 220 90 3e 00
+        E 0 90 3e 64
+        E 330 90 3e 00
+        E 0 90 48 64
+        E 109 90 48 00
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {5EAC4DBF-931F-4687-8D4C-4A9810C0DFB8}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 218
+        VELLANE -1 100 0
+      >
+    >
+    <ITEM
+      POSITION 126
+      SNAPOFFS 0
+      LENGTH 16
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {49F6147B-9FB6-47EE-9B63-5B977AF344A4}
+      IID 114
+      NAME 2019-06-21_204534_08.mid
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {63424E7B-8172-44B5-95CB-A32584757B17}
+      <SOURCE MIDI
+        HASDATA 1 220 QN
+        POOLEDEVTS {BFA7EDD7-1E65-403B-84B0-979700012E00}
+        E 0 c0 00 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 825 90 40 64
+        E 880 90 40 00
+        E 0 90 40 64
+        E 55 90 40 00
+        E 165 90 3f 64
+        E 440 90 3f 00
+        E 0 90 47 64
+        E 220 90 3e 64
+        E 0 90 47 00
+        E 220 90 3e 00
+        E 0 90 47 64
+        E 220 90 43 64
+        E 0 90 47 00
+        E 220 90 43 00
+        E 0 90 47 64
+        E 220 90 3e 64
+        E 0 90 47 00
+        E 55 90 3e 00
+        E 385 90 3e 64
+        E 330 90 3e 00
+        E 0 90 3e 64
+        E 220 90 3e 00
+        E 0 90 40 64
+        E 110 90 40 00
+        E 0 90 51 64
+        E 550 90 3e 64
+        E 0 90 51 00
+        E 165 90 3e 00
+        E 385 90 3e 64
+        E 330 90 3e 00
+        E 0 90 3e 64
+        E 220 90 3e 00
+        E 0 90 40 64
+        E 330 90 32 64
+        E 0 90 40 00
+        E 330 90 32 00
+        E 0 90 3e 64
+        E 109 90 3e 00
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {32F780DA-D9F8-4D39-B34A-6FC66D13CAE9}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 219
+        VELLANE -1 100 0
+      >
+    >
+    <ITEM
+      POSITION 144
+      SNAPOFFS 0
+      LENGTH 15.80643999999981
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {5AFD9BA7-827F-4F42-905D-4AAAB3469F90}
+      IID 115
+      NAME 2019-06-21_204534_09.mid
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8CF97779-E17D-4AA0-9BD0-51C438D1B789}
+      <SOURCE MIDI
+        HASDATA 1 220 QN
+        POOLEDEVTS {B79CA273-1102-44B7-B347-C2DA7C6E146D}
+        E 0 c0 00 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 1705 90 3c 64
+        E 55 90 3c 00
+        E 825 90 48 64
+        E 220 90 43 64
+        E 0 90 48 00
+        E 440 90 3c 64
+        E 0 90 43 00
+        E 220 90 3c 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 550 90 43 64
+        E 165 90 3c 64
+        E 0 90 43 00
+        E 110 90 3c 00
+        E 0 90 3e 64
+        E 220 90 3e 00
+        E 0 90 43 64
+        E 440 90 43 00
+        E 0 90 43 64
+        E 220 90 3e 64
+        E 0 90 43 00
+        E 55 90 3e 00
+        E 550 90 43 64
+        E 165 90 3c 64
+        E 0 90 43 00
+        E 110 90 3c 00
+        E 0 90 48 64
+        E 220 90 43 64
+        E 0 90 48 00
+        E 440 90 43 00
+        E 0 90 43 64
+        E 219 90 43 00
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {205D7ABE-4461-4BFF-8A5E-3048534B5492}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 220
+        VELLANE -1 100 0
+      >
+    >
+    <ITEM
+      POSITION 161.74191999999974
+      SNAPOFFS 0
+      LENGTH 15.4838399999995
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {BDBE014B-1CAF-4EDE-82C5-DE8FF657DB93}
+      IID 116
+      NAME 2019-06-21_204534_10.mid
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C3F7A0AD-A378-4D26-9503-176320A3EEFA}
+      <SOURCE MIDI
+        HASDATA 1 220 QN
+        POOLEDEVTS {4576D5A6-1F53-4455-BEC8-DA920A229548}
+        E 0 c0 00 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 165 90 43 64
+        E 660 90 3c 64
+        E 0 90 43 00
+        E 110 90 3c 00
+        E 0 90 43 64
+        E 110 90 43 00
+        E 0 90 43 64
+        E 660 90 3c 64
+        E 0 90 43 00
+        E 55 90 3c 00
+        E 165 90 43 64
+        E 660 90 43 00
+        E 0 90 48 64
+        E 110 90 43 64
+        E 0 90 48 00
+        E 110 90 43 00
+        E 0 90 43 64
+        E 660 90 43 00
+        E 0 90 48 64
+        E 55 90 48 00
+        E 165 90 43 64
+        E 220 90 41 64
+        E 0 90 43 00
+        E 220 90 3c 64
+        E 0 90 41 00
+        E 220 90 3c 00
+        E 0 90 48 64
+        E 110 90 40 64
+        E 0 90 48 00
+        E 110 90 40 00
+        E 0 90 43 64
+        E 220 90 3e 64
+        E 0 90 43 00
+        E 330 90 3e 00
+        E 0 90 3e 64
+        E 110 90 3e 00
+        E 0 90 40 64
+        E 55 90 40 00
+        E 165 90 43 64
+        E 220 90 41 64
+        E 0 90 43 00
+        E 220 90 3c 64
+        E 0 90 41 00
+        E 220 90 3c 00
+        E 0 90 48 64
+        E 110 90 40 64
+        E 0 90 48 00
+        E 110 90 40 00
+        E 0 90 43 64
+        E 220 90 3e 64
+        E 0 90 43 00
+        E 330 90 3e 00
+        E 0 90 3e 64
+        E 109 90 3e 00
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {76713A28-08FC-4B49-9848-68636E60D351}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 221
+        VELLANE -1 100 0
+      >
+    >
+  >
+  <TRACK {DBD6C839-51FB-4CED-A5A3-4FED2D4A5A26}
+    NAME "zelda - 500 steps"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {DBD6C839-51FB-4CED-A5A3-4FED2D4A5A26}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 28 63 548 468
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSynth (Cockos)" reasynth.dll 0 "" 1919251321 ""
+        eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAA8AAAAAAAAAAAAEAA=
+        776t3g3wrd6mm8Q7F7fROgAAgD8AAAAAAAAAAE6otD3pZ4g9AAAAAAAAAD8AAIA/AACAPwAAAD8AAAAA
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {057FE7AE-1DE3-49B0-8DB0-E831E4FF5ECB}
+      WAK 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 16
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {09219564-0624-4823-A0BF-26B3072F015C}
+      IID 117
+      NAME 2019-06-21_210556_01.mid
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7928333C-D4AA-4147-A3A2-0528927FF164}
+      <SOURCE MIDI
+        HASDATA 1 220 QN
+        POOLEDEVTS {3D4B6E7E-45AE-43DF-8285-666C36AA31E5}
+        E 0 c0 00 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 165 90 43 64
+        E 110 90 43 00
+        E 110 90 47 64
+        E 110 90 41 64
+        E 0 90 47 00
+        E 110 90 41 00
+        E 0 90 47 64
+        E 110 90 47 00
+        E 110 90 47 64
+        E 220 90 47 00
+        E 0 90 4a 64
+        E 110 90 4a 00
+        E 110 90 48 64
+        E 110 90 48 00
+        E 0 90 4c 64
+        E 110 90 4a 64
+        E 0 90 4c 00
+        E 220 90 4a 00
+        E 0 90 4c 64
+        E 55 90 4c 00
+        E 55 90 47 64
+        E 55 90 47 00
+        E 605 90 40 64
+        E 110 90 40 00
+        E 0 90 40 64
+        E 110 90 40 00
+        E 0 90 47 64
+        E 55 90 47 00
+        E 715 90 40 64
+        E 55 90 40 00
+        E 55 90 47 64
+        E 55 90 47 00
+        E 55 90 4d 64
+        E 220 90 41 64
+        E 0 90 4d 00
+        E 110 90 41 00
+        E 0 90 45 64
+        E 110 90 45 00
+        E 0 90 47 64
+        E 110 90 40 64
+        E 0 90 47 00
+        E 110 90 40 00
+        E 0 90 45 64
+        E 110 90 45 00
+        E 0 90 47 64
+        E 55 90 47 00
+        E 55 90 4a 64
+        E 110 90 4a 00
+        E 110 90 41 64
+        E 220 90 41 00
+        E 0 90 47 64
+        E 220 90 47 00
+        E 0 90 48 64
+        E 55 90 48 00
+        E 55 90 47 64
+        E 55 90 47 00
+        E 55 90 43 64
+        E 220 90 43 00
+        E 0 90 43 64
+        E 110 90 43 00
+        E 0 90 45 64
+        E 330 90 45 00
+        E 0 90 48 64
+        E 110 90 47 64
+        E 0 90 48 00
+        E 55 90 47 00
+        E 55 90 40 64
+        E 220 90 40 00
+        E 0 90 40 64
+        E 439 90 40 00
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {32FF6ED3-088E-45E5-AA01-50C13C917EC2}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 224
+        VELLANE -1 100 0
+      >
+    >
+    <ITEM
+      POSITION 18
+      SNAPOFFS 0
+      LENGTH 16
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {D3B8781A-A5F1-45A0-89EA-0D1F25F78665}
+      IID 118
+      NAME 2019-06-21_210556_02.mid
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9110A499-8700-4AD4-B22D-9999BC7E9BA1}
+      <SOURCE MIDI
+        HASDATA 1 220 QN
+        POOLEDEVTS {05DB38C5-2C2C-463D-9FAC-E02F07F57DA4}
+        E 0 c0 00 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 165 90 47 64
+        E 220 90 45 64
+        E 0 90 47 00
+        E 110 90 45 00
+        E 0 90 45 64
+        E 110 90 45 00
+        E 0 90 47 64
+        E 110 90 3c 64
+        E 0 90 47 00
+        E 110 90 3c 00
+        E 0 90 47 64
+        E 165 90 47 00
+        E 55 90 47 64
+        E 220 90 47 00
+        E 0 90 4c 64
+        E 110 90 4a 64
+        E 0 90 4c 00
+        E 110 90 4a 00
+        E 0 90 4a 64
+        E 110 90 4a 00
+        E 0 90 4c 64
+        E 110 90 40 64
+        E 0 90 4c 00
+        E 55 90 40 00
+        E 55 90 4c 64
+        E 55 90 47 64
+        E 0 90 4c 00
+        E 55 90 47 00
+        E 0 90 47 64
+        E 330 90 47 00
+        E 0 90 4a 64
+        E 220 90 4a 00
+        E 0 90 4c 64
+        E 220 90 4c 00
+        E 0 90 4c 64
+        E 55 90 4c 00
+        E 55 90 47 64
+        E 330 90 47 00
+        E 0 90 4a 64
+        E 220 90 4a 00
+        E 0 90 4c 64
+        E 165 90 4c 00
+        E 55 90 4c 64
+        E 55 90 47 64
+        E 0 90 4c 00
+        E 55 90 47 00
+        E 0 90 4d 64
+        E 220 90 41 64
+        E 0 90 4d 00
+        E 110 90 41 00
+        E 0 90 43 64
+        E 110 90 43 00
+        E 0 90 47 64
+        E 110 90 47 00
+        E 0 90 4c 64
+        E 110 90 45 64
+        E 0 90 4c 00
+        E 110 90 45 00
+        E 0 90 4c 64
+        E 55 90 4c 00
+        E 55 90 47 64
+        E 110 90 47 00
+        E 0 90 48 64
+        E 110 90 47 64
+        E 0 90 48 00
+        E 110 90 47 00
+        E 0 90 4a 64
+        E 110 90 47 64
+        E 0 90 4a 00
+        E 110 90 43 64
+        E 0 90 47 00
+        E 110 90 43 00
+        E 0 90 47 64
+        E 55 90 47 00
+        E 55 90 4c 64
+        E 55 90 47 64
+        E 0 90 4c 00
+        E 385 90 3e 64
+        E 0 90 47 00
+        E 330 90 3e 00
+        E 0 90 40 64
+        E 110 90 40 00
+        E 0 90 4c 64
+        E 55 90 4c 00
+        E 165 90 48 64
+        E 220 90 48 00
+        E 0 90 4a 64
+        E 220 90 43 64
+        E 0 90 4a 00
+        E 109 90 43 00
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {7088EEE1-2387-4A90-B67D-D95069343CDF}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 225
+        VELLANE -1 100 0
+      >
+    >
+    <ITEM
+      POSITION 36
+      SNAPOFFS 0
+      LENGTH 15.875
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {D15DB01C-9A5C-48A1-8E5F-C4511D1D8640}
+      IID 644
+      NAME 2019-06-21_204534_03.mid
+      VOLPAN 1 0 1 -1
+      SOFFS 0.125 0.25
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4AA37C00-4060-4C59-AB41-4951C177DB86}
+      <SOURCE MIDI
+        HASDATA 1 220 QN
+        POOLEDEVTS {FE62A7A1-50A9-42AA-A81C-DB3366772983}
+        E 0 c0 00 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 1265 90 43 64
+        E 440 90 3c 64
+        E 0 90 43 00
+        E 55 90 3c 00
+        E 1265 90 45 64
+        E 220 90 45 00
+        E 0 90 47 64
+        E 220 90 47 00
+        E 0 90 47 64
+        E 55 90 47 00
+        E 165 90 43 64
+        E 220 90 43 00
+        E 0 90 48 64
+        E 220 90 40 64
+        E 0 90 48 00
+        E 110 90 3c 64
+        E 0 90 40 00
+        E 220 90 3c 00
+        E 0 90 40 64
+        E 110 90 40 00
+        E 0 90 41 64
+        E 220 90 41 00
+        E 0 90 48 64
+        E 330 90 3c 64
+        E 0 90 48 00
+        E 165 90 3c 00
+        E 165 90 43 64
+        E 220 90 43 00
+        E 0 90 48 64
+        E 220 90 40 64
+        E 0 90 48 00
+        E 110 90 3c 64
+        E 0 90 40 00
+        E 220 90 3c 00
+        E 0 90 40 64
+        E 110 90 40 00
+        E 0 90 43 64
+        E 220 90 43 00
+        E 0 90 48 64
+        E 220 90 3c 64
+        E 0 90 48 00
+        E 110 90 3c 00
+        E 0 90 3c 64
+        E 109 90 3c 00
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {ACB4C14E-3E09-4474-B646-116E748EF029}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 296
+        VELLANE -1 100 0
+      >
+    >
+    <ITEM
+      POSITION 54.15407021574586
+      SNAPOFFS 0
+      LENGTH 16
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {5FCDD6EA-48F3-4AE5-B800-02E093D576BD}
+      IID 120
+      NAME 2019-06-21_210556_04.mid
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {ADCC29E6-DBA7-4F1C-9040-1273703E9EF8}
+      <SOURCE MIDI
+        HASDATA 1 220 QN
+        POOLEDEVTS {58494CA0-5CAB-43AD-9CDE-FB5A8A6814F4}
+        E 0 c0 00 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 165 90 47 64
+        E 110 90 47 00
+        E 110 90 43 64
+        E 110 90 43 00
+        E 0 90 45 64
+        E 110 90 45 00
+        E 0 90 47 64
+        E 220 90 47 00
+        E 0 90 4a 64
+        E 220 90 47 64
+        E 0 90 4a 00
+        E 110 90 47 00
+        E 110 90 4a 64
+        E 110 90 45 64
+        E 0 90 4a 00
+        E 110 90 45 00
+        E 0 90 4c 64
+        E 220 90 4c 00
+        E 0 90 4d 64
+        E 55 90 4d 00
+        E 55 90 4a 64
+        E 55 90 4a 00
+        E 55 90 41 64
+        E 110 90 41 00
+        E 220 90 45 64
+        E 440 90 45 00
+        E 0 90 4a 64
+        E 55 90 4a 00
+        E 55 90 41 64
+        E 165 90 41 00
+        E 165 90 45 64
+        E 330 90 45 00
+        E 0 90 47 64
+        E 55 90 47 00
+        E 55 90 4a 64
+        E 55 90 4a 00
+        E 55 90 41 64
+        E 110 90 41 00
+        E 110 90 41 64
+        E 110 90 41 00
+        E 0 90 43 64
+        E 110 90 43 00
+        E 0 90 47 64
+        E 220 90 45 64
+        E 0 90 47 00
+        E 110 90 45 00
+        E 0 90 4a 64
+        E 55 90 4a 00
+        E 55 90 40 64
+        E 165 90 40 00
+        E 55 90 41 64
+        E 110 90 41 00
+        E 0 90 45 64
+        E 110 90 45 00
+        E 0 90 4c 64
+        E 110 90 48 64
+        E 0 90 4c 00
+        E 110 90 47 64
+        E 0 90 48 00
+        E 55 90 47 00
+        E 55 90 4a 64
+        E 55 90 4a 00
+        E 55 90 43 64
+        E 110 90 43 00
+        E 220 90 45 64
+        E 220 90 45 00
+        E 0 90 48 64
+        E 110 90 3e 64
+        E 0 90 48 00
+        E 110 90 3e 00
+        E 0 90 4a 64
+        E 55 90 4a 00
+        E 55 90 43 64
+        E 165 90 43 00
+        E 55 90 40 64
+        E 110 90 40 00
+        E 0 90 45 64
+        E 110 90 3e 64
+        E 0 90 45 00
+        E 110 90 3e 00
+        E 0 90 48 64
+        E 109 90 48 00
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {9D3E4D1B-3EBB-4CD2-A764-0D1F282088AF}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 227
+        VELLANE -1 100 0
+      >
+    >
+    <ITEM
+      POSITION 72
+      SNAPOFFS 0
+      LENGTH 16
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {71A19030-B07F-450C-8936-281DE43595F1}
+      IID 121
+      NAME 2019-06-21_210556_05.mid
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CBCBC922-2CB5-449C-A312-348C66C0F7F1}
+      <SOURCE MIDI
+        HASDATA 1 220 QN
+        POOLEDEVTS {828E63CB-320C-463D-BB63-895832235B03}
+        E 0 c0 00 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 165 90 47 64
+        E 110 90 43 64
+        E 0 90 47 00
+        E 220 90 41 64
+        E 0 90 43 00
+        E 55 90 41 00
+        E 55 90 47 64
+        E 110 90 45 64
+        E 0 90 47 00
+        E 55 90 45 00
+        E 55 90 47 64
+        E 110 90 47 00
+        E 0 90 4c 64
+        E 110 90 4a 64
+        E 0 90 4c 00
+        E 110 90 4a 00
+        E 0 90 4c 64
+        E 110 90 4a 64
+        E 0 90 4c 00
+        E 110 90 41 64
+        E 0 90 4a 00
+        E 110 90 41 00
+        E 0 90 4c 64
+        E 110 90 48 64
+        E 0 90 4c 00
+        E 110 90 48 00
+        E 0 90 4c 64
+        E 55 90 4c 00
+        E 55 90 47 64
+        E 880 90 3e 64
+        E 0 90 47 00
+        E 220 90 3e 00
+        E 0 90 3e 64
+        E 110 90 3e 00
+        E 0 90 40 64
+        E 110 90 40 00
+        E 0 90 41 64
+        E 110 90 3e 64
+        E 0 90 41 00
+        E 110 90 3e 00
+        E 0 90 47 64
+        E 110 90 41 64
+        E 0 90 47 00
+        E 55 90 41 00
+        E 55 90 47 64
+        E 110 90 47 00
+        E 0 90 47 64
+        E 220 90 41 64
+        E 0 90 47 00
+        E 110 90 41 00
+        E 0 90 41 64
+        E 110 90 41 00
+        E 0 90 45 64
+        E 110 90 45 00
+        E 0 90 47 64
+        E 110 90 47 00
+        E 0 90 4c 64
+        E 110 90 4c 00
+        E 0 90 4c 64
+        E 110 90 48 64
+        E 0 90 4c 00
+        E 110 90 3e 64
+        E 0 90 48 00
+        E 110 90 3e 00
+        E 0 90 4c 64
+        E 110 90 41 64
+        E 0 90 4c 00
+        E 110 90 41 00
+        E 0 90 47 64
+        E 110 90 47 00
+        E 0 90 48 64
+        E 110 90 47 64
+        E 0 90 48 00
+        E 55 90 47 00
+        E 55 90 43 64
+        E 55 90 43 00
+        E 55 90 47 64
+        E 220 90 41 64
+        E 0 90 47 00
+        E 110 90 41 00
+        E 0 90 41 64
+        E 330 90 41 00
+        E 0 90 47 64
+        E 110 90 43 64
+        E 0 90 47 00
+        E 55 90 43 00
+        E 55 90 40 64
+        E 220 90 40 00
+        E 0 90 41 64
+        E 110 90 41 00
+        E 0 90 41 64
+        E 329 90 41 00
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {725C4F1B-295F-40C6-816C-A141C1767EAE}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 228
+        VELLANE -1 100 0
+      >
+    >
+    <ITEM
+      POSITION 89.84592978425414
+      SNAPOFFS 0
+      LENGTH 15.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {AAA6E9C5-22A2-4E50-964A-D1A5993713DA}
+      IID 122
+      NAME 2019-06-21_210556_06.mid
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FE3C2DF6-2B2D-4DB9-AEE7-B2B062075CBA}
+      <SOURCE MIDI
+        HASDATA 1 220 QN
+        POOLEDEVTS {82469D37-53BE-4DCE-9396-3B43BF02CF2A}
+        E 0 c0 00 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 165 90 38 64
+        E 110 90 38 00
+        E 0 90 43 64
+        E 110 90 43 00
+        E 0 90 47 64
+        E 110 90 47 00
+        E 110 90 45 64
+        E 110 90 45 00
+        E 0 90 45 64
+        E 110 90 45 00
+        E 0 90 47 64
+        E 220 90 38 64
+        E 0 90 47 00
+        E 110 90 38 00
+        E 0 90 4c 64
+        E 110 90 4a 64
+        E 0 90 4c 00
+        E 110 90 48 64
+        E 0 90 4a 00
+        E 110 90 45 64
+        E 0 90 48 00
+        E 110 90 45 00
+        E 0 90 4a 64
+        E 110 90 4a 00
+        E 0 90 4a 64
+        E 55 90 4a 00
+        E 55 90 4c 64
+        E 220 90 43 64
+        E 0 90 4c 00
+        E 220 90 43 00
+        E 440 90 40 64
+        E 110 90 3e 64
+        E 0 90 40 00
+        E 110 90 3e 00
+        E 0 90 43 64
+        E 110 90 3e 64
+        E 0 90 43 00
+        E 110 90 3e 00
+        E 330 90 40 64
+        E 55 90 40 00
+        E 55 90 4c 64
+        E 110 90 45 64
+        E 0 90 4c 00
+        E 110 90 43 64
+        E 0 90 45 00
+        E 110 90 40 64
+        E 0 90 43 00
+        E 110 90 40 00
+        E 110 90 47 64
+        E 220 90 40 64
+        E 0 90 47 00
+        E 110 90 40 00
+        E 0 90 40 64
+        E 110 90 40 00
+        E 110 90 43 64
+        E 110 90 43 00
+        E 0 90 45 64
+        E 110 90 45 00
+        E 110 90 48 64
+        E 220 90 48 00
+        E 0 90 4c 64
+        E 55 90 4c 00
+        E 55 90 48 64
+        E 55 90 48 00
+        E 55 90 43 64
+        E 110 90 43 00
+        E 0 90 43 64
+        E 110 90 40 64
+        E 0 90 43 00
+        E 110 90 40 00
+        E 660 90 43 64
+        E 220 90 43 00
+        E 110 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {72D2F439-13F0-4F21-AD50-10E8126C046A}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 229
+        VELLANE -1 100 0
+      >
+    >
+    <ITEM
+      POSITION 108
+      SNAPOFFS 0
+      LENGTH 16
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {629A52E7-C35F-4854-927E-AF2C6CEB6BCB}
+      IID 123
+      NAME 2019-06-21_210556_07.mid
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3801F7F4-AE18-4CF3-94FF-E8E856D47936}
+      <SOURCE MIDI
+        HASDATA 1 220 QN
+        POOLEDEVTS {947594C9-E62E-4EC5-888F-6C179589832B}
+        E 0 c0 00 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 165 90 47 64
+        E 220 90 41 64
+        E 0 90 47 00
+        E 110 90 41 00
+        E 0 90 45 64
+        E 110 90 45 00
+        E 0 90 47 64
+        E 110 90 45 64
+        E 0 90 47 00
+        E 110 90 45 00
+        E 0 90 47 64
+        E 110 90 47 00
+        E 0 90 48 64
+        E 55 90 48 00
+        E 55 90 4a 64
+        E 220 90 4a 00
+        E 0 90 4a 64
+        E 110 90 45 64
+        E 0 90 4a 00
+        E 110 90 45 00
+        E 0 90 4c 64
+        E 110 90 4c 00
+        E 0 90 4c 64
+        E 110 90 4c 00
+        E 0 90 4c 64
+        E 55 90 4c 00
+        E 55 90 48 64
+        E 55 90 48 00
+        E 55 90 47 64
+        E 770 90 3e 64
+        E 0 90 47 00
+        E 55 90 3e 00
+        E 55 90 47 64
+        E 330 90 45 64
+        E 0 90 47 00
+        E 110 90 45 00
+        E 330 90 48 64
+        E 55 90 48 00
+        E 55 90 45 64
+        E 220 90 45 00
+        E 0 90 45 64
+        E 110 90 45 00
+        E 110 90 4a 64
+        E 330 90 3e 64
+        E 0 90 4a 00
+        E 55 90 3e 00
+        E 55 90 45 64
+        E 220 90 45 00
+        E 0 90 51 64
+        E 110 90 45 64
+        E 0 90 51 00
+        E 110 90 45 00
+        E 0 90 4a 64
+        E 220 90 4a 00
+        E 0 90 4a 64
+        E 55 90 4a 00
+        E 55 90 48 64
+        E 55 90 48 00
+        E 55 90 43 64
+        E 220 90 43 00
+        E 0 90 43 64
+        E 110 90 43 00
+        E 110 90 4a 64
+        E 220 90 4a 00
+        E 0 90 4a 64
+        E 110 90 3e 64
+        E 0 90 4a 00
+        E 55 90 3e 00
+        E 55 90 43 64
+        E 220 90 43 00
+        E 0 90 43 64
+        E 110 90 43 00
+        E 0 90 45 64
+        E 110 90 45 00
+        E 0 90 4a 64
+        E 219 90 4a 00
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {71CB1987-20F1-4F55-9A2B-548F655A760E}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 230
+        VELLANE -1 100 0
+      >
+    >
+    <ITEM
+      POSITION 126
+      SNAPOFFS 0
+      LENGTH 16
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {BF364A95-4876-4A3C-A589-915F070BA991}
+      IID 124
+      NAME 2019-06-21_210556_08.mid
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8D5FC681-5F89-4C3F-8840-7D42A2847C89}
+      <SOURCE MIDI
+        HASDATA 1 220 QN
+        POOLEDEVTS {BA610737-077B-4B8D-ADA6-C9BAE8F82DCE}
+        E 0 c0 00 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 165 90 47 64
+        E 220 90 43 64
+        E 0 90 47 00
+        E 110 90 40 64
+        E 0 90 43 00
+        E 55 90 40 00
+        E 55 90 45 64
+        E 110 90 45 00
+        E 0 90 45 64
+        E 110 90 45 00
+        E 0 90 47 64
+        E 220 90 47 00
+        E 0 90 47 64
+        E 220 90 47 00
+        E 0 90 4a 64
+        E 220 90 45 64
+        E 0 90 4a 00
+        E 110 90 45 00
+        E 0 90 4a 64
+        E 110 90 47 64
+        E 0 90 4a 00
+        E 55 90 47 00
+        E 55 90 4c 64
+        E 110 90 47 64
+        E 0 90 4c 00
+        E 330 90 40 64
+        E 0 90 47 00
+        E 55 90 40 00
+        E 275 90 43 64
+        E 110 90 43 00
+        E 0 90 4c 64
+        E 110 90 47 64
+        E 0 90 4c 00
+        E 110 90 40 64
+        E 0 90 47 00
+        E 220 90 40 00
+        E 0 90 40 64
+        E 220 90 40 00
+        E 0 90 4a 64
+        E 110 90 43 64
+        E 0 90 4a 00
+        E 55 90 43 00
+        E 55 90 4c 64
+        E 110 90 4c 00
+        E 220 90 47 64
+        E 110 90 40 64
+        E 0 90 47 00
+        E 55 90 40 00
+        E 55 90 45 64
+        E 110 90 45 00
+        E 0 90 4a 64
+        E 110 90 43 64
+        E 0 90 4a 00
+        E 110 90 43 00
+        E 0 90 4c 64
+        E 110 90 47 64
+        E 0 90 4c 00
+        E 110 90 47 00
+        E 0 90 47 64
+        E 110 90 47 00
+        E 0 90 47 64
+        E 110 90 40 64
+        E 0 90 47 00
+        E 110 90 40 00
+        E 0 90 47 64
+        E 110 90 47 00
+        E 0 90 4a 64
+        E 110 90 47 64
+        E 0 90 4a 00
+        E 55 90 47 00
+        E 55 90 4c 64
+        E 220 90 47 64
+        E 0 90 4c 00
+        E 55 90 47 00
+        E 495 90 40 64
+        E 110 90 40 00
+        E 0 90 4c 64
+        E 220 90 47 64
+        E 0 90 4c 00
+        E 110 90 3c 64
+        E 0 90 47 00
+        E 439 90 3c 00
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {A0F480B8-4D96-4620-921C-0AE972832876}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 231
+        VELLANE -1 100 0
+      >
+    >
+    <ITEM
+      POSITION 144
+      SNAPOFFS 0
+      LENGTH 15.80643999999978
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {26F581E4-A8B2-443A-9B38-DD09958C81C6}
+      IID 125
+      NAME 2019-06-21_210556_09.mid
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9919D8E8-40A6-44E3-802D-192E69BF4821}
+      <SOURCE MIDI
+        HASDATA 1 220 QN
+        POOLEDEVTS {194B34BA-EC4A-494E-AAE2-B73304E19BDB}
+        E 0 c0 00 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 165 90 47 64
+        E 110 90 47 00
+        E 110 90 43 64
+        E 110 90 43 00
+        E 0 90 45 64
+        E 55 90 45 00
+        E 55 90 47 64
+        E 220 90 47 00
+        E 0 90 4c 64
+        E 220 90 4c 00
+        E 0 90 4c 64
+        E 110 90 4c 00
+        E 110 90 4a 64
+        E 110 90 45 64
+        E 0 90 4a 00
+        E 110 90 45 00
+        E 0 90 4a 64
+        E 220 90 4a 00
+        E 0 90 4c 64
+        E 55 90 4c 00
+        E 165 90 4a 64
+        E 110 90 4a 00
+        E 220 90 45 64
+        E 55 90 45 00
+        E 495 90 3e 64
+        E 110 90 3e 00
+        E 110 90 3e 64
+        E 110 90 3e 00
+        E 0 90 45 64
+        E 330 90 41 64
+        E 0 90 45 00
+        E 55 90 41 00
+        E 165 90 47 64
+        E 110 90 47 00
+        E 110 90 41 64
+        E 110 90 41 00
+        E 0 90 45 64
+        E 55 90 45 00
+        E 55 90 4f 64
+        E 440 90 47 64
+        E 0 90 4f 00
+        E 110 90 47 00
+        E 110 90 47 64
+        E 110 90 45 64
+        E 0 90 47 00
+        E 110 90 45 00
+        E 0 90 4c 64
+        E 110 90 4c 00
+        E 0 90 4c 64
+        E 110 90 47 64
+        E 0 90 4c 00
+        E 55 90 47 00
+        E 55 90 47 64
+        E 220 90 47 00
+        E 220 90 45 64
+        E 55 90 45 00
+        E 165 90 3e 64
+        E 110 90 3e 00
+        E 0 90 40 64
+        E 110 90 40 00
+        E 0 90 47 64
+        E 220 90 47 00
+        E 220 90 45 64
+        E 55 90 45 00
+        E 165 90 3e 64
+        E 109 90 3e 00
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {FB33AA79-0D1A-4662-AB57-9070E07F3EA0}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 232
+        VELLANE -1 100 0
+      >
+    >
+    <ITEM
+      POSITION 161.74191999999974
+      SNAPOFFS 0
+      LENGTH 15.48383999999945
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {3A6DA0BA-8793-4959-AF87-9D69A6F8DF62}
+      IID 126
+      NAME 2019-06-21_210556_10.mid
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8CB01042-70DD-4BB7-AD3C-013354144B57}
+      <SOURCE MIDI
+        HASDATA 1 220 QN
+        POOLEDEVTS {BF5B40F1-45E8-4A12-B14A-458FF8E07332}
+        E 0 c0 00 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 165 90 47 64
+        E 220 90 43 64
+        E 0 90 47 00
+        E 110 90 43 00
+        E 0 90 45 64
+        E 110 90 45 00
+        E 0 90 47 64
+        E 220 90 41 64
+        E 0 90 47 00
+        E 220 90 41 00
+        E 0 90 47 64
+        E 220 90 47 00
+        E 0 90 4d 64
+        E 110 90 4c 64
+        E 0 90 4d 00
+        E 110 90 4a 64
+        E 0 90 4c 00
+        E 110 90 48 64
+        E 0 90 4a 00
+        E 110 90 48 00
+        E 0 90 4c 64
+        E 55 90 4c 00
+        E 495 90 45 64
+        E 385 90 45 00
+        E 275 90 3e 64
+        E 110 90 3e 00
+        E 0 90 43 64
+        E 110 90 43 00
+        E 0 90 45 64
+        E 110 90 45 00
+        E 0 90 48 64
+        E 220 90 47 64
+        E 0 90 48 00
+        E 55 90 47 00
+        E 165 90 47 64
+        E 220 90 45 64
+        E 0 90 47 00
+        E 110 90 45 00
+        E 0 90 45 64
+        E 110 90 45 00
+        E 0 90 47 64
+        E 220 90 47 00
+        E 0 90 47 64
+        E 55 90 47 00
+        E 165 90 47 64
+        E 110 90 3e 64
+        E 0 90 47 00
+        E 110 90 3e 00
+        E 0 90 41 64
+        E 110 90 41 00
+        E 0 90 45 64
+        E 110 90 45 00
+        E 0 90 47 64
+        E 220 90 47 00
+        E 0 90 47 64
+        E 55 90 47 00
+        E 165 90 43 64
+        E 330 90 43 00
+        E 0 90 45 64
+        E 385 90 45 00
+        E 165 90 43 64
+        E 330 90 43 00
+        E 0 90 45 64
+        E 329 90 45 00
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {E2734F42-C2EF-4BC9-99FD-9504098FA304}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 233
+        VELLANE -1 100 0
+      >
+    >
+  >
+  <TRACK {B11453B1-8181-44FC-AD13-BB61A76B9CD3}
+    NAME 2019-06-21_210556_01
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {B11453B1-8181-44FC-AD13-BB61A76B9CD3}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 28 63 548 468
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSynth (Cockos)" reasynth.dll 0 "" 1919251321 ""
+        eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAA8AAAAAAAAAAAAEAA=
+        776t3g3wrd6mm8Q7F7fROgAAgD8AAAAAAAAAAE6otD3pZ4g9AAAAAAAAAD8AAIA/AACAPwAAAD8AAAAA
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {E8B31A8E-DC93-4FB7-A25C-B12F83BFBE62}
+      WAK 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 15.375
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {AE64CF2E-D6DF-4827-9C14-2CE9A1852038}
+      IID 645
+      NAME 2019-06-21_210556_03.mid
+      VOLPAN 1 0 1 -1
+      SOFFS 0.125 0.25
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0545F966-2B0A-48AD-9422-9C03D53D6695}
+      <SOURCE MIDI
+        HASDATA 1 220 QN
+        POOLEDEVTS {6B946F39-2CD3-486B-9946-12F15AB829ED}
+        E 0 c0 00 00
+        E 0 90 3c 64
+        E 55 90 3c 00
+        E 165 90 47 64
+        E 220 90 45 64
+        E 0 90 47 00
+        E 110 90 41 64
+        E 0 90 45 00
+        E 55 90 41 00
+        E 55 90 48 64
+        E 110 90 45 64
+        E 0 90 48 00
+        E 110 90 45 00
+        E 0 90 47 64
+        E 165 90 47 00
+        E 55 90 4a 64
+        E 220 90 4a 00
+        E 0 90 4a 64
+        E 110 90 41 64
+        E 0 90 4a 00
+        E 55 90 41 00
+        E 55 90 4a 64
+        E 220 90 4a 00
+        E 0 90 4a 64
+        E 55 90 4a 00
+        E 495 90 41 64
+        E 55 90 41 00
+        E 385 90 3e 64
+        E 55 90 3e 00
+        E 0 90 3e 64
+        E 55 90 3e 00
+        E 0 90 49 64
+        E 220 90 49 00
+        E 0 90 4a 64
+        E 110 90 41 64
+        E 0 90 4a 00
+        E 55 90 41 00
+        E 275 90 50 64
+        E 55 90 50 00
+        E 110 90 45 64
+        E 55 90 45 00
+        E 0 90 45 64
+        E 220 90 41 64
+        E 0 90 45 00
+        E 110 90 3c 64
+        E 0 90 41 00
+        E 55 90 3c 00
+        E 55 90 3e 64
+        E 220 90 3e 00
+        E 0 90 50 64
+        E 165 90 3e 64
+        E 0 90 50 00
+        E 55 90 3e 00
+        E 0 90 45 64
+        E 220 90 45 00
+        E 0 90 4c 64
+        E 110 90 41 64
+        E 0 90 4c 00
+        E 55 90 41 00
+        E 55 90 3e 64
+        E 220 90 3e 00
+        E 0 90 47 64
+        E 55 90 47 00
+        E 55 90 47 64
+        E 55 90 47 00
+        E 55 90 45 64
+        E 220 90 43 64
+        E 0 90 45 00
+        E 110 90 3c 64
+        E 0 90 43 00
+        E 55 90 3c 00
+        E 275 90 47 64
+        E 110 90 47 00
+        E 0 90 4c 64
+        E 55 90 4c 00
+        E 55 90 45 64
+        E 110 90 40 64
+        E 0 90 45 00
+        E 110 90 3e 64
+        E 0 90 40 00
+        E 110 90 3e 00
+        E 0 90 41 64
+        E 55 90 41 00
+        E 55 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {AD7816B9-E060-4EF5-891D-C75CB307D470}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 297
+        VELLANE -1 100 0
       >
     >
   >
