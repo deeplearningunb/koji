@@ -78,7 +78,7 @@ class Koji():
                 dirs = listdir("data/inputs/")
                 for genre in dirs:
                     print(' ', '-',genre)
-                    sys.exit()
+                sys.exit()
             elif opt in ("-g", "--genre"):
                 self.genre = arg
             elif opt in ("-o", "--outdir"):
