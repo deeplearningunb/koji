@@ -1,7 +1,9 @@
 # Koji
 AI that creates game music. 
 
-Named after the japanese music composer [Koji Kondo](https://en.wikipedia.org/wiki/Koji_Kondo), this project aims to create game songs based on common game themes (Super Mario, Sonic, Alex Kid, The Legend of Zelda).
+Named after the japanese music composer [Koji Kondo](https://en.wikipedia.org/wiki/Koji_Kondo), this project aims to create game songs based on common game themes (Super Mario, Sonic, Alex Kid, The Legend of Zelda). 
+
+Our intent is to help non-musicians create songs for their games, and/or help actual musicians to have new ideas too :smiley: 
 
 We're using [Magenta](https://github.com/tensorflow/magenta) to help create melodies.
 
