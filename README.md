@@ -12,7 +12,7 @@ We're using [Magenta](https://github.com/tensorflow/magenta) to help create melo
 	- [Installation](#installation)
 	- [Usage](#usage)
 	  - [Generating Melodies](#generating-melodies)
-	  - [Adding new styles](#adding-new-styles)
+	  - [Adding new genres](#adding-new-genres)
 - [Creators](#creators)
 - [License](#license)
 
@@ -26,20 +26,20 @@ pip3 install -r requirements.txt
 
 ## Usage
 ### Generating Melodies
-To create melodies, you should choose the music style. The current options are: `rpg`, `platformer`, `action`.
+To create melodies, you should choose the music genre. The current options are: `rpg`, `platformer`, `action`.
 
 The final command looks like this:
 
 ```bash
-python3 koji.py STYLE [output-folder]
+python3 koji.py -g GENRE [-o output-folder]
 ```
 
 The `output-folder` has a default value of `/tmp/melody_rnn/generated`
 
-### Adding new styles
-If you want to add new styles, just create a directory within `data/` with the name of the new style inside.
+### Adding new genres
+If you want to add new genres, just create a directory within `data/` with the name of the new genre inside.
 
-So, to create a new style called `horror` you should crate a directory `data/horror`.
+So, to create a new genre called `horror` you should crate a directory `data/horror`.
 
 After adding MIDI files within `horror`, you can run:
 
