@@ -4,7 +4,7 @@ Briefly describe your changes. Make sure you mentioned the related issue (use a 
 
 ## Type of Changes
 
-What type of change this Pull Request brings to Falko?
+What type of change this Pull Request brings to Koji?
 _Put an `x` in the boxes that apply_
 
 - [ ] Bugfix
